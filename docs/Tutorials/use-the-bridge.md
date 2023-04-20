@@ -1,5 +1,5 @@
 ---
-title: Use the bridge
+title: Use the Bridge
 sidebar_position: 3
 ---
 

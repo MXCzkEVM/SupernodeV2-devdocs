@@ -1,5 +1,5 @@
 ---
-title: Deploy a contract
+title: Deploy a Contract
 sidebar_position: 7
 ---
 :::caution

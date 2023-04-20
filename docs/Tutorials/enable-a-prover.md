@@ -1,5 +1,5 @@
 ---
-title: Enable a prover
+title: Enable a Prover
 sidebar_position: 6
 ---
 

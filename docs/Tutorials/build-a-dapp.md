@@ -1,5 +1,5 @@
 ---
-title: Build a dapp
+title: Build a Dapp
 sidebar_position: 8
 ---
 

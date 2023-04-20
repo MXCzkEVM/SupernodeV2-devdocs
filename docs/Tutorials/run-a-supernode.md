@@ -1,5 +1,5 @@
 ---
-title: Run a supernode
+title: Run MXC Supernode
 sidebar_position: 5
 ---
 

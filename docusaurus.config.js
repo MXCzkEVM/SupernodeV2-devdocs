@@ -98,6 +98,11 @@ const config = {
             position: "right",
           },
           {
+            href: `https://wannsee-xsd.mxc.com`,
+            label: "XSD Stable Coin",
+            position: "right",
+          },
+          {
             href: `https://github.com/${organizationName}/${projectName}`,
             label: "Github",
             position: "right",
