@@ -28,9 +28,7 @@ forge init hello_foundry && cd hello_foundry
 ```
 
 ### Deploy the contract
-:::info
-Ensure that Gas is 3000gWei to avoid Error: (code: -32000, message: contract creation code storage out of gas, data: None)!
-:::
+
 Replace `YOUR_PRIVATE_KEY` below with your private key which has some Test MXC Token on MXC Wannsee testnet.
 
 Deploy the contract located at `src/Counter.sol`.
@@ -39,6 +37,10 @@ Deploy the contract located at `src/Counter.sol`.
 ```sh
 forge create --legacy --rpc-url https://wannsee-rpc.mxc.com --private-key YOUR_PRIVATE_KEY src/Counter.sol:Counter
 ```
+
+:::info
+Deploy using [Remix IDE](https://remix.ethereum.org) if you get an error ->  Error: (code: -32000, message: contract creation code storage out of gas, data: None)!
+:::
 
 ### View your contract
 Paste the address from the output into the [MXC Wannsee block explorer](https://wannsee-explorer.mxc.com) and verify that the contract was deployed.
