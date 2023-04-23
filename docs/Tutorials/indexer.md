@@ -3,7 +3,7 @@ title: Blockchain Indexer
 sidebar_position: 7
 ---
 :::caution
-Indexer is a third party services, usually comes with API pricing models
+An indexer typically refers to a third-party service that offers API pricing models.
 :::
 
 This guide will help you get your subgraph work.
@@ -21,6 +21,8 @@ Users can build any subgraph , then instead of using graph deploy, you could use
 goldsky subgraph deploy 
 
 ```
+
+![goldsky](/img/goldsky.jpeg)
 
 # Difference between Goldsky and The Graph
 
