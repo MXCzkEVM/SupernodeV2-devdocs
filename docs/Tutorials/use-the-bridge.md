@@ -5,7 +5,9 @@ sidebar_position: 3
 
 This guide will help you use the bridge to send tokens between Arbitrum Goerli and MXC (Wannsee testnet). You can read more about how bridging works [here](/docs/Designs/Bridge). 
 
-> The Ride token and Park token are both dummy test tokens that are used for testing the bridge and swap.
+> The Ride token and Park token are both dummy test sensor tokens that are used for testing the bridge and swap.
+
+
 
 ## Prerequisites
 
@@ -23,3 +25,8 @@ Try bridging MXC, RIDE, PARK from Arbitrum Goerli to MXC Wannsee. You can also t
 
 ### Bridge tokens from MXC Wannsee to Arbitrum Goerli
 Try bridging MXC, RIDE, PARK from MXC Wannsee to Arbitrum Goerli . You can also try manually claiming the transfer yourself by clicking the "Claim" button under the "Transactions" tab.
+
+:::caution
+Arbitrum Goerli often had gas problem that the claim could fail, please go to Metamask gas page "Advanced" 
+Change the gas limit to 6,000,000 or 8,000,000
+:::
