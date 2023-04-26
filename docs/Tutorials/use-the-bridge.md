@@ -28,5 +28,5 @@ Try bridging MXC, RIDE, PARK from MXC Wannsee to Arbitrum Goerli . You can also 
 
 :::caution
 Arbitrum Goerli often had gas problem that the claim could fail, please go to Metamask gas page "Advanced" 
-Change the gas limit to 6,000,000 or 8,000,000
+Change the gas limit to 6,000,000 or 7,000,000
 :::
