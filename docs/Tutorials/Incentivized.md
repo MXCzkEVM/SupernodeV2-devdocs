@@ -35,24 +35,28 @@ The purpose of the Wannsee testnet is to bring the largest Web3 IoT network that
 | 40%                          | 1,065,986,320       | MXC DAO treasury                |
 | 30%                          | 799,489,740        | MXC DataDash App Users from 2020                              |
 | 20%                          | 532,993,160        | Free unlocked circulation from 2019                           |
-| 10%                          | 266,496,580        | Users of the MXC zkEVM (via airdrop to user wallet addresses) |
+| 10%                          | 266,496,580        | Users of the MXC zkEVM testnet (Will be distributed as zkMXC) |
 
 
 Up to 10% of the circulation will participate in the airdrop, when the MXC token price listed on Coinbase Pro reaches a certain threshold at the announced block height, it will open the more percentages like the following table shows:
 
-| Participation wallets | Total Percentage of MXC token |
+| Participation wallets | Total amounts of zkMXC token |
 |-----------------------|-------------------------------|
-| Under $0.2            | 0.2%                           |
-| $0.2-0.5              | 4%                           |
-| $0.5-0.8              | 6%                           |
-| $0.8-1                | 8%                           |
-| Above $1              | 10%                          |
+| Under $0.2            | 53,299,316                    |
+| $0.2-0.5              | 106,598,632                  |
+| $0.5-0.8              | 159,897,948                  |
+| $0.8-1                | 213,197,264                  |
+| Above $1              | 266,496,580                  |
+
+There is no lock-up for zkEVM when claiming and will be LP with zkMXC/MXC
 
 
 
 ### User airdrop eligibility details
 
 A points system was used to determine the number of tokens that airdrop recipients can claim. Points criteria was focused primarily on MXC zkEVM; however, there was a small subset of criteria applied to activity on DataHighway.com. Points earned on DataHighway.com could either bring a user up to 4 points total, or give them one additional point if they had already scored 4 points or more on MXC zkEVM. You earn maximum one point per qualifying action performed before the snapshot date. Point scores were capped at 30.
+
+Users are required to mint ARB-ZK NFTs in Arbitrum One for participating the airdrop.
 
 Additionally, as the criteria and design of the airdrop as a whole was intentioned to reward early adopters, points scored (minimum of three) before announcement link (later available) are worth twice as much as points scored after.
 
