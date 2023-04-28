@@ -93,7 +93,7 @@ const config = {
             position: "right",
           },
           {
-            href: `https://wannsee-ens.mxc.com`,
+            href: `https://wannsee-mns.mxc.com`,
             label: "Hexagon Domain",
             position: "right",
           },
