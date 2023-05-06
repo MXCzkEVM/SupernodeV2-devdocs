@@ -107,6 +107,11 @@ const config = {
             label: "Github",
             position: "right",
           },
+          {
+            href: `https://mxc.instatus.com/`,
+            label: "Status",
+            position: "right",
+          },
         ],
       },
       footer: {

@@ -30,7 +30,7 @@ In the following example, it shows how XSD is backed:
 
 | Collateral   | Value USD | Quantity | Total USD | Percentage |
 |--------------|-----------|----------|-----------|------------|
-| M2Pro NFT    | 2700      | 10       | 27000     | 72%        |
+| Diamond NFT  | 2700      | 10       | 27000     | 72%        |
 | Gin 1689 NFT | 100       | 30       | 3000      | 8%         |
 | MXC token    | 1         | 2000     | 2000      | 5.3%       |
 | Ride token   | 2         | 100      | 200       | 0.6%       |
@@ -154,7 +154,7 @@ It is possible that this Dutch auction may not be able to find a willing party t
 
 Once the auction hits some defined max rate (like 1000%) without letting XSD mint to re-stepping in, the protocol infers that the position is insolvent or otherwise non-viable, and liquidates the borrower. The existing lender can then send a transaction to take possession of the collateral. 
 
-Also the insurance in this case should repay the difference amounts to the borrower.
+Also the insurance in this case should repay the difference amounts to the borrower if the liquidation is faield.
 
 Except for MXC DAO referendum can trigger a liquidation event, borrower usually won't repay if the interest rate is 0% or even in some cases can be below 0%.
 
