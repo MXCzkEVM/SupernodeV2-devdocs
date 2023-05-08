@@ -34,7 +34,7 @@ Numerous countries have released guidelines for unlicensed, permissionless spect
 |                        Belarus (BY)                       | 864.4 - 868.6 MHz | EU863-870     |
 |                        Belgium (BE)                       | 863 - 870 MHz     | EU863-870     |
 |                        Belize (BZ)                        | 902 - 928 MHz     | AU915-928     |
-|                         Benin (BJ)                        | 863 - 870 MHz     |               |
+|                         Benin (BJ)                        | 863 - 870 MHz     | EU863-870     |
 |                        Bermuda (BM)                       | 902 - 928 MHz     | US902-928     |
 |                        Bhutan (BT)                        | 863 - 870 MHz     | EU863-870     |
 |                        Bolivia (BO)                       | 915 - 930 MHz     | AU915-928     |

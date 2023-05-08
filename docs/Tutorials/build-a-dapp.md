@@ -11,3 +11,14 @@ This guide will help you build a dapp on MXC (Wannsee testnet)! The starter dapp
 
 ## Steps
 1. Visit the [dapp-slaps starter template](https://github.com/MXCzkEVM/dapp-slaps) to create an Evm dapp with one-click.
+
+
+## Status page integration
+
+Remember to integrate the status widget in case the zkEVM operational status is changed
+```
+<script src="https://mxc.instatus.com/13076080/widget/script.js">
+</script>
+```
+
+This will show a pop-up widget if the zkEVM has a new incident.
