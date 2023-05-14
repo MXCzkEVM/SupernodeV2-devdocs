@@ -20,8 +20,8 @@ The purpose of the Wannsee testnet is to bring the largest Web3 IoT network that
 | Initial supply cap         | 2.6 billion                              |
 | Launched date              | 2018 August                              |
 | Inflation/Deflation rate   | Same as Ethereum as the gas is MXC Token |
-| Minting/burning mechanism  | L2 Smart Contract                        |
-| Bridgeable to Ethereum L1? | Yes                                      |
+| Minting/burning mechanism  | L2 Smart Contract/L3 Usages              |
+| Bridgeable to Ethereum L1? | Yes, through Arbitrum L2                 |
 | Tokens launch on           | MXC zkEVM                                |
 | Airdrop snapshot           | TBD                                      |
 | Claiming started           | After Announcement                       |
@@ -68,22 +68,22 @@ Points earned on MXC zkEVM
 2. Create IoT NFTs (Name of the NFT created should be a real-world object)
 3. Run MXC zkEVM Supernodes
 4. Creating a MXC zkEVM wallet
- 5. Conducted more than four transactions or interacted with more than four different smart contracts
- 6. Conducted more than ten transactions or interacted with more than ten different smart contracts
- 7. Conducted more than 25 transactions or interacted with more than 25 different smart contracts
- 8. Conducted more than 100 transactions or interacted with more than 100 different smart contracts
- 9. Conducted Sensor Tokens/IoT NFTs transactions exceeding in the aggregate $10,000 in value
- 10. Conducted Sensor Tokens/IoT NFTs transactions exceeding in the aggregate $50,000 in value
- 11. Conducted Sensor Tokens/IoT NFTs transactions exceeding in the aggregate $250,000 in value
+ 5. Conducted more than 40 transactions or interacted with more than 40 different smart contracts
+ 6. Conducted more than 100 transactions or interacted with more than 100 different smart contracts
+ 7. Conducted more than 250 transactions or interacted with more than 250 different smart contracts
+ 8. Conducted more than 1000 transactions or interacted with more than 1000 different smart contracts
+ 9. Conducted Sensor Tokens/IoT NFTs transactions exceeding in the aggregate 50,000 MXC
+ 10. Conducted Sensor Tokens/IoT NFTs transactions exceeding in the aggregate 100,000 MXC
+ 11. Conducted Sensor Tokens/IoT NFTs transactions exceeding in the aggregate 250,000 MXC
  12. Minting Hexagon map NFT
  13. Creating MXC name service domain
- 14. **Referral: Claim the [MOON token](https://contract_addr) and send to the referrer person, no upper limit. The referee has to collect at least 10 points to make the moon token points count.**
+ 14. **Referral: Claim the [MOON token](https://contract_addr) and send to the referrer person, no upper limit. The referee has to collect at least 5 points to make the moon token points count.**
 
 
 
 Points earned on DataHighway.com 
 
- 1. Creating assets on DataHighway.com 
+ 1. Holding any BEP-20 DHX 
  2. Conducted more than three transactions
  3. Conducted more than five transactions
  4. Conducted more than ten transactions
@@ -165,15 +165,12 @@ To prevent bots from taking advantage of the airdrop, a number of anti-Sybil rul
 
 Refer to [Sybil Hunting](https://github.com/mxczkevm/sybil-detection) to learn more about the Sybil mitigation methodology. Refer to our [Sybil accounts](https://github.com/mxczkevm/sybil-detection) concept document for a conceptual introduction to Sybil accounts.
 
-### DAO airdrop criteria and distribution
-
-A separate distribution was allocated for DAOs that are building applications in the MXC ecosystem, as well as the Protocol Guild, a collective of Ethereum contributors. In putting together this criteria we worked with Nansen and analyzed on-chain data to determine how many tokens each DAO community was granted. In doing so we took into account a variety of qualitative and quantitative metrics including when the protocol launched, whether it was native or multichain, how much TVL, activity, transaction volume, value of transactions it had, as well as the consistency of maintaining those metrics. The goal of using a broad variety of criteria was recognizing that MXC is home to a diversity of projects that have different KPIs and user interactions.
 
 
 
 ### Vesting and lockup details
 
-While the user and DAO airdrops will be available in one week, all investor and team tokens are subject to 4 year lockups, with the first unlocks happening in one year and then monthly unlocks for the remaining three years.
+While the user and DAO airdrops will be available after the claiming immediately, the zkMXC will be distributed to ARB-ZKL3 holders in Arbitrum One and have a swap pair with MXC and ARB.
 
 
 
