@@ -12,6 +12,8 @@ This guide help you connect your wallet to MXC (Wannsee testnet). There are two 
 
 - You have a wallet installed and ready to use. Some examples are MetaMask and Frame. Please use a hot wallet (not a hardware wallet) for this guide, preferably a throwaway wallet.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HTp7rPfLL8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Steps
 
 ### 1. Add the Arbitrum Goerli testnet
