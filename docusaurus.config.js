@@ -18,6 +18,13 @@ const config = {
   favicon: "img/favicon.ico",
   // GitHub Pages adds a trailing slash by default that I don't want
   trailingSlash: false,
+  // This script will check all MXC operations and if the system experiences any downtime It will notify with a small notification
+  scripts: [
+    {
+      src: 'https://mxc.instatus.com/en/13076080/widget/script.js',
+      async: true,
+    },
+  ],
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
