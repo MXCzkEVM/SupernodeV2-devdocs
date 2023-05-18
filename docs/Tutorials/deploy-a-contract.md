@@ -19,6 +19,8 @@ This guide will help you deploy a smart contract to MXC (Wannsee testnet) using 
     - First, [request Test MXC Token](/docs/Tutorials/receive-tokens) from the faucet.
     - Then, [use the bridge](/docs/Tutorials/use-the-bridge) to send the Test MXC Token to MXC Wannsee testnet.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UE0E1dzXIsc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Steps
 
 ### Create a project with Foundry

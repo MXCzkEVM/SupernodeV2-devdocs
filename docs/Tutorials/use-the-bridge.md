@@ -13,6 +13,8 @@ This guide will help you use the bridge to send tokens between Arbitrum Goerli a
 
 - A wallet with some testnet ETH on Arbitrum Goerli and/or MXC Wannsee (you can [receive tokens here](/docs/Tutorials/receive-tokens)).
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wW0a3_zoEEQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Steps 
 
 ### Visit the bridge

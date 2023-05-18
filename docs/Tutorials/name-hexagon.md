@@ -26,7 +26,7 @@ This guide will help you name a Hexagon using any of your Hexagon Domain Name
 
 ### 3. Get the Transaction Hash
 - Onclick of the Hexagon Address in the previous page, it takes you to transaction detail page
-- Copy the transaction hash and ask MXC team for Naming Rights, but in near future we will the Naming Right NFTs in an NFT marketplace for people to purchase.
+- Copy the transaction hash and ask MXC team for Naming Rights, but in near future we will put the Naming Right NFTs in an NFT marketplace for people to purchase.
 - Once Naming Rights is given to your address
 - On the same transaction detail page where you copied the transaction hash, get/copy the token ID under the Tokens minted section
 
@@ -37,7 +37,7 @@ This guide will help you name a Hexagon using any of your Hexagon Domain Name
 - Select From Decimal, To Hexadecimal
 - Paste the Token ID you copied and click the Convert button
 - You will get the Hexadecimal of the Token ID
-- Copy the Hexdecimal, you will need it to name the Hexagon button
+- Copy the Hexdecimal, you will need it to name the Hexagon
 
 ![connect wallet](./img/name-hexagon/step4/getHexOfID.png)
 
