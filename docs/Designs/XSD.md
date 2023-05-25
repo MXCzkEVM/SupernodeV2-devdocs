@@ -48,9 +48,9 @@ In this case, the users will try to redeem one Gin 1689 NFT to get 100USD worth 
 
 | Collateral redeemed | Value USD | Quantity | Total Burnt XSD | Percentage |
 |---------------------|-----------|----------|-----------|------------|
-| Gin 1689 NFT        | 100       | 1        | 200       | 80%        |
-| MXC token           | 1         | 25       | 50       | 20%        |
-|                     |           |          | 250       | 100%       |
+| Gin 1689 NFT        | 100       | 1        | 50       | 80%        |
+| MXC token           | 1         | 25       | 12.5     | 20%        |
+|                     |           |          | 62.5       | 100%       |
 
 
 
@@ -93,7 +93,7 @@ This chapter introduces XSD minting: a peer-to-peer perpetual lending protocol t
 
 XSD mint matches users who want to borrow against their real-world collateral with whatever lender is willing to offer the most competitive rate, using a sophisticated off-chain offer protocol.
 
-By default, XSD mint loans have fixed rates (0% interest rate) and never expire. Borrowers can repay at any time, while XSD mint won't exit. Howevery, MXC DAO can trigger a referedum to exit any positions by triggering a Dutch auction to find a new lender at a new rate. If that auction fails, the borrower is liquidated and the XSD mint takes possession of the collateral.
+By default, XSD mint loans have fixed rates **(0% interest rate)** and never expire. Borrowers can repay at any time, while XSD mint won't exit. Howevery, MXC DAO can trigger a referedum to exit any positions by triggering a Dutch auction to find a new lender at a new rate. If that auction fails, the borrower is liquidated and the XSD mint takes possession of the collateral.
 
 XSD mint has been implemented by MXC Core Contributors. In their implementation, some protocol parameters, such as protocol fees, are controlled by MXC DAO governance.
 
