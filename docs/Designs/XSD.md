@@ -2,20 +2,27 @@
 sidebar_position: 6
 ---
 
-# MXC Stable Coin (draft)
+# MXC Stable Coin 
+
+
+:::tip WIP
+
+This documentation is still a Work In Progress. Some topics have been discussed in greater depth, while others require additional clarification. Sections of this documentation might later be reorganized in order to achieve a better flow.
+
+:::
 
 MXC will be the largest Layer-3 IoT solution on Arbitrum ecosystem, bringing tremendous real-world items to NFT world and data to the blockchain. Undoubtedly each real-world item and each piece of data has its own value, and this kind of value is not from pure financial speculations, the value comes from real economy that serves our food, sports, transportation every day. 
 
-MXC is going to leverage the real-world economy to build the first stable coin backed by items like Gin, Bike sensors, Nike shoes etc. Along with the tokens created on zkEVM like Ride token, Park token and MXC, DHX, BTC, the MXC stable coin has a basket ranging from NFT to tokens to back the stable coin from the real-world economy.
+MXC is going to leverage the real-world economy to build the first stable coin backed by items like Gin, Bike sensors, Nike shoes etc. Along with the tokens created on zkEVM like Ride token, Park token and MXC, GRYD, BTC, the MXC stable coin has a basket ranging from NFT to tokens to back the stable coin from the real-world economy.
 
 
-XSD, in conjunction with MXC and DHX, aims to empower individuals and companies to generate and circulate XSD within their unique economic systems, supporting their specific business requirements. The objective is to transform the existing financial landscape, where the majority of stable coins and fiat currencies rely on the backing of US treasury bonds. With a staggering 30 trillion USD in US treasury bonds and only 4 trillion in gold and other reserves held by the US Treasury and Federal Reserve, this initiative seeks to establish a more decentralized and diverse foundation for global financial systems.
+XSD, in conjunction with MXC and GRYD, aims to empower individuals and companies to generate and circulate XSD within their unique economic systems, supporting their specific business requirements. The objective is to transform the existing financial landscape, where the majority of stable coins and fiat currencies rely on the backing of US treasury bonds. With a staggering 30 trillion USD in US treasury bonds and only 4 trillion in gold and other reserves held by the US Treasury and Federal Reserve, this initiative seeks to establish a more decentralized and diverse foundation for global financial systems.
 
 
 
-As IoT [Swap](https://wannsee-swap.mxc.com/) shows, the IoT tokens like Ride token would be the major applications that use MXC network and DHX blockchain to build their own data economy. These Ride and Park token can be swapped in MXC Swap conveniently, through XSD trading pair. XSD will be the first IoT stable coin that are backed by real-world assets and data values, meanwhile serving for the digital and real-world economy.
+As IoT [Swap](https://wannsee-swap.mxc.com/) shows, the IoT tokens like Ride token would be the major applications that use MXC network and GRYD blockchain to build their own data economy. These Ride and Park token can be swapped in MXC Swap conveniently, through XSD trading pair. XSD will be the first IoT stable coin that are backed by real-world assets and data values, meanwhile serving for the digital and real-world economy.
 
-MXProtocol design and DataHighway DB both are aimed for validating the XSD stable coin，which is pegged to US dollars at start in 1:2 manner. Along with the NFC, LoraWAN and Satellite technologies, users are able to verify and validate the value of XSD are backed by collateral like Gin 1689 NFTs, and MXC/DHX/Ride tokens.
+MXProtocol design and GRYD DB both are aimed for validating the XSD stable coin，which is pegged to US dollars at start in 1:2 manner. Along with the NFC, LoraWAN and Satellite technologies, users are able to verify and validate the value of XSD are backed by collateral like Gin 1689 NFTs, and MXC/GRYD/Ride tokens.
 
 IoT NFTs need to reach a minimal IoT NFT transactions, in the initial roll-out is three transactions in order to become a collateral. This is to raise the attacking cost to enter the XSD mint basket.
 
@@ -35,7 +42,7 @@ In the following example, it shows how XSD is backed:
 | MXC token    | 1         | 2000     | 2000      | 5.3%       |
 | Ride token   | 2         | 100      | 200       | 0.6%       |
 | BTC          | 5000      | 1        | 5000      | 13.3%      |
-| DHX token    | 100       | 3        | 300       | 0.8%       |
+| GRYD token    | 100       | 3        | 300       | 0.8%       |
 |              |           |          | 37500     | 100%       |
 
 This collateral can create **18750 XSD** with XSD/USD convertion rate 2. When people want to redeem let's say 100 XSD ride token, they will also have to reduce the amount of NFT value according to the 20/80 ratio, otherwise the burning of XSD won't be successful.
@@ -56,7 +63,7 @@ In this case, the users will try to redeem one Gin 1689 NFT to get 100USD worth 
 
 
 ## Insurance
-The goal of XSD and MXC, DHX is to enable every person/company to create XSD and circulate in their own economy to support their business logic, eventually it is to change the current situation that all the stable coins and Fiat currencies are backed by US treasury bonds, while US treasury bonds are like 30 trillion USD and US treasury and Fed Reserve only got 4 trillion gold or other reserves.
+The goal of XSD and MXC, GRYD is to enable every person/company to create XSD and circulate in their own economy to support their business logic, eventually it is to change the current situation that all the stable coins and Fiat currencies are backed by US treasury bonds, while US treasury bonds are like 30 trillion USD and US treasury and Fed Reserve only got 4 trillion gold or other reserves.
 
 We need to peg this world better with the assets created by people and used by people. Also we need to deal with systematic risks if the de-peg happens. Central banks proposes to print more money to solve the problem. MXC DAO proposes that we should add a 10% insurance on the top of the every XSD mint to deal with the systematic risks.
 
