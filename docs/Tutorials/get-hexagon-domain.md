@@ -5,6 +5,8 @@ sidebar_position: 9
 
 This guide will help you get an MXC domain name and show you how to name a hexagon with the your domain name.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vabpCCjYcUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Prerequisites
 - You should have an Ethereum wallet address. Metamask is preferred.
 - You should have some MXC tokens to pay for MXC domain name and transaction fee. Get some tokens using [this guide](/docs/Tutorials/receive-tokens).

@@ -112,6 +112,11 @@ const config = {
             position: "right",
           },
           {
+            href: `https://wannsee-gmx.mxc.com`,
+            label: "Decentralized Perpetual Exchange",
+            position: "right",
+          },
+          {
             href: `https://github.com/${organizationName}/${projectName}`,
             label: "Github",
             position: "right",

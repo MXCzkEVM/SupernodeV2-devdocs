@@ -5,6 +5,8 @@ sidebar_position: 10
 
 This guide will help you name a Hexagon using any of your Hexagon Domain Name
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_YbllGOfEbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Prerequisites
 - You should already have a Hexagon Domain Name. Get one using [this guide](/docs/Tutorials/get-hexagon-domain).
 

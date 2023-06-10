@@ -32,6 +32,8 @@ Block explorer:
 And there is a quick link for the bridge: 
 [Wannsee bridge/faucet](https://wannsee-bridge.mxc.com)  
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QAyB-YuFlEQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Contribute to MXC
 
 MXC is a fully open source and community driven project, check out our Discord to get started as a contributor!

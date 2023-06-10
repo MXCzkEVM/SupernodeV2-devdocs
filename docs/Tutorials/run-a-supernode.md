@@ -12,6 +12,8 @@ This guide will walk you through the process of operating a MXC supernode via [s
 - Run a MXC supernode regularly or as a prover.
 - View a [Grafana](https://grafana.com/) dashboard which displays the node's status.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6QI9YxFskYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Prerequisites
 
 - Reserve some extra MXC as a fee for future proposed blocks.
