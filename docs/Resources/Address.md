@@ -10,11 +10,11 @@ sidebar_position: 2
 
 | Contract name  | Contract address                                                                                                            |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| AddressManager | [0x4DC02eFdDa5545203eAA66645D86b283BbCA5594](https://goerli.arbiscan.io/address/0x4DC02eFdDa5545203eAA66645D86b283BbCA5594) |
-| Bridge         | [0x365FA5DACc733564FCa7F82777b022E8fA3Cb07B](https://goerli.arbiscan.io/address/0x365FA5DACc733564FCa7F82777b022E8fA3Cb07B) |
-| SignalService  | [0x73971548AD776f4FaF7dBe80E4533AAADf578A90](https://goerli.arbiscan.io/address/0x73971548AD776f4FaF7dBe80E4533AAADf578A90) |
-| MXCL1          | [0xaFC87201573c7AE994ab1bb546e3DB3A91F7F78A](https://goerli.arbiscan.io/address/0xaFC87201573c7AE994ab1bb546e3DB3A91F7F78A) |
-| TokenVault     | [0x97C1F377676eCe3f6f06e19aD34EE92fD496Bb5E](https://goerli.arbiscan.io/address/0x97C1F377676eCe3f6f06e19aD34EE92fD496Bb5E) |
+| AddressManager | [0xF649e1d76D1D59aa8C1Ffe7026cBB9Ab9148c499](https://goerli.arbiscan.io/address/0xF649e1d76D1D59aa8C1Ffe7026cBB9Ab9148c499) |
+| Bridge         | [0xBb7a150E1247Da7B4c339f0997Bb18A4038147Af](https://goerli.arbiscan.io/address/0xBb7a150E1247Da7B4c339f0997Bb18A4038147Af) |
+| SignalService  | [0x1B80c7bCCEF6D6BEfB62Db052b3E3D782c566a4c](https://goerli.arbiscan.io/address/0x1B80c7bCCEF6D6BEfB62Db052b3E3D782c566a4c) |
+| MXCL1          | [0x92a78e9D3DfcfDe54d59845248508CAa59fe6d4f](https://goerli.arbiscan.io/address/0x92a78e9D3DfcfDe54d59845248508CAa59fe6d4f) |
+| TokenVault     | [0xbBf26D9E55311a5f9a184c330B5dA2C834d1Ed4B](https://goerli.arbiscan.io/address/0xbBf26D9E55311a5f9a184c330B5dA2C834d1Ed4B) |
 
 **MXC Wannsee**
 
@@ -32,17 +32,17 @@ sidebar_position: 2
 
 | Name           | Symbol | Contract address                                                                                                          |
 | -------------- | ------ | ------------------------------------------------------------------------------------------------------------------------- |
-| Ride Token     | RIDE   | [0xB20FEffA2587190CEFFf673f6581A7Ee22572327](https://goerli.arbiscan.io/token/0xB20FEffA2587190CEFFf673f6581A7Ee22572327) |
-| Park Token     | PARK   | [0x23A6767Bb13e77cb9ABaA9E3C2804448390351F5](https://goerli.arbiscan.io/token/0x23A6767Bb13e77cb9ABaA9E3C2804448390351F5) |
-| Test MXC Token | MXC    | [0x15bc370507497AaC421912e339f70Eaa20d04490](https://goerli.arbiscan.io/token/0x15bc370507497AaC421912e339f70Eaa20d04490) |
+| Ride Token     | RIDE   | [0x30FB4a9d248EfDa58E7d324b7Bb6DB3Ee2bE4C44](https://goerli.arbiscan.io/token/0x30FB4a9d248EfDa58E7d324b7Bb6DB3Ee2bE4C44) |
+| Park Token     | PARK   | [0x253793f4E6Eea9c338dc4B0dA5F614CD98C2eB95](https://goerli.arbiscan.io/token/0x253793f4E6Eea9c338dc4B0dA5F614CD98C2eB95) |
+| Test MXC Token | MXC    | [0xFfaBAacF13C298B2d313F654931ED99858A005Ff](https://goerli.arbiscan.io/token/0xFfaBAacF13C298B2d313F654931ED99858A005Ff) |
 
 **MXC Wannsee**
 
 | Name       | Symbol | Contract address                                                                                                                  |
 | ---------- | ------ | --------------------------------------------------------------------------------------------------------------------------------- |
-| Ride Token | RIDE   | [0x3e7fC4C5cda88F10F2E47e74628cE91De03355E3](https://wannsee-explorer.mxc.com/address/0x3e7fC4C5cda88F10F2E47e74628cE91De03355E3) |
-| Park Token | PARK   | [0x6609a29c1B01ee5d3304DF9C96D74B84Ab80dc9f](https://wannsee-explorer.mxc.com/address/0x6609a29c1B01ee5d3304DF9C96D74B84Ab80dc9f) |
-| Moon Token | MOON   | [0x8cCBf1B113a61B228c440fa1C9735bb2C7521267](https://wannsee-explorer.mxc.com/address/0x8cCBf1B113a61B228c440fa1C9735bb2C7521267) |
+| Ride Token | RIDE   | [0x499A9b11b3A107e7ac45217C3401b3D0bF36A24C](https://wannsee-explorer.mxc.com/address/0x499A9b11b3A107e7ac45217C3401b3D0bF36A24C) |
+| Park Token | PARK   | [0x850e2d6329C0A99d53C52571CFc7ff8C319159fe](https://wannsee-explorer.mxc.com/address/0x850e2d6329C0A99d53C52571CFc7ff8C319159fe) |
+| Moon Token | MOON   | [0x13d65548C25A7448fDBb95ae1CC48266DfE0fc51](https://wannsee-explorer.mxc.com/address/0x13d65548C25A7448fDBb95ae1CC48266DfE0fc51) |
 
 ## MXC Supernode addresses
 
