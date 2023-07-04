@@ -20,7 +20,7 @@ This guide help you connect your wallet to MXC (Wannsee testnet). There are two 
 Visit [https://chainid.network/](https://chainid.network/), search for "Arbitrum Goerli", and click the "Add Chain" button.
 
 ### 2. Add the MXC Wannsee testnet
-Visit [https://chainid.network/](https://chainid.network/), **in filter click "Show Testnet** then search for "MXC Wannsee", and click the "Add Chain" button.
+Visit [https://chainid.network/](https://chainid.network/), **in filter click "Show Testnet" ** then search for "MXC Wannsee", and click the "Add Chain" button.
 
 ### 3. Add MXC, Ride, Park tokens to your wallet
 Use your wallet (e.g., Metamask) and [import the tokens](https://support.ledger.com/hc/en-us/articles/6375103346077-Add-custom-tokens-to-MetaMask?docs=true) with [this configuration](/docs/Resources/Address#erc-20-token-contracts).
