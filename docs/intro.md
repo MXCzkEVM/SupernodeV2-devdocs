@@ -27,7 +27,7 @@ The MXC token is built on Arbitrum now as an IoT scaling solution, which offers 
 ## Use the zkEVM Mainnet
 
 Block explorer:
-[Wannsee explorer](https://explorer.mxc.com)
+[explorer](https://explorer.mxc.com)
 
 And there is a quick link for the bridge: 
 [L1 bridge](https://erc20.mxc.com) 
@@ -42,6 +42,7 @@ And there is a quick link for the bridge:
 
 [Stable Coin](https://xsd.mxc.com)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ym6sZsi63CQ?start=4742" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Use the Wannsee testnet
 
