@@ -11,6 +11,7 @@ sidebar_position: 2
 | Name           | Symbol | Contract address                                                                                                          |
 | -------------- | ------ | ------------------------------------------------------------------------------------------------------------------------- |
 | MXC Token | MXC    | [0xaeDF7656fBB47c5B97dD529aC1D0e807E051f2dd](https://arbiscan.io/token/0xaeDF7656fBB47c5B97dD529aC1D0e807E051f2dd) |
+| L1 MXC Token | MXC    | [0x91b468Fe3dce581D7a6cFE34189F1314b6862eD6](https://arbiscan.io/token/0x91b468Fe3dce581D7a6cFE34189F1314b6862eD6) |
 
 **Ethereum Mainnet L1**
 
