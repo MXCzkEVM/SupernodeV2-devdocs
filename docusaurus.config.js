@@ -11,7 +11,7 @@ const projectName = "SupernodeV2-devdocs";
 const config = {
   title: "MXC SupernodeV2 zkEVM",
   tagline: "The next generation of IoT Web3",
-  url: `https://wannsee.mxc.com`,
+  url: `https://doc.mxc.com`,
   baseUrl: `/`,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
@@ -81,41 +81,7 @@ const config = {
             position: "left",
             label: "MXC zkEVM SupernodeV2 Docs",
           },
-          {
-            href: `https://wannsee-explorer.mxc.com`,
-            label: "zkExplorer",
-            position: "right",
-          },
-          {
-            href: `https://wannsee-nft.mxc.com`,
-            label: "IoT NFT",
-            position: "right",
-          },
-          {
-            href: `https://wannsee-bridge.mxc.com`,
-            label: "Bridge/Faucet",
-            position: "right",
-          },
-          {
-            href: `https://wannsee-swap.mxc.com`,
-            label: "IoT Swap",
-            position: "right",
-          },
-          {
-            href: `https://wannsee-mns.mxc.com`,
-            label: "Hexagon Domain",
-            position: "right",
-          },
-          {
-            href: `https://wannsee-xsd.mxc.com`,
-            label: "XSD Stable Coin",
-            position: "right",
-          },
-          {
-            href: `https://wannsee-gmx.mxc.com`,
-            label: "Decentralized Perpetual Exchange",
-            position: "right",
-          },
+          
           {
             href: `https://github.com/${organizationName}/${projectName}`,
             label: "Github",
