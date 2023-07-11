@@ -4,6 +4,25 @@ sidebar_position: 2
 
 # Contract Addresses
 
+## ERC-20 token contracts
+
+**Arbitrum One L2**
+
+| Name           | Symbol | Contract address                                                                                                          |
+| -------------- | ------ | ------------------------------------------------------------------------------------------------------------------------- |
+| MXC Token | MXC    | [0xaeDF7656fBB47c5B97dD529aC1D0e807E051f2dd](https://arbiscan.io/token/0xaeDF7656fBB47c5B97dD529aC1D0e807E051f2dd) |
+
+**Ethereum Mainnet L1**
+
+| Name       | Symbol | Contract address                                                                                                                  |
+| ---------- | ------ | --------------------------------------------------------------------------------------------------------------------------------- |
+| MXC Token | MXC   | [0x5ca381bbfb58f0092df149bd3d243b08b9a8386e](https://etherscan.io/token/0x5ca381bbfb58f0092df149bd3d243b08b9a8386e) |
+
+
+
+
+
+
 ## Protocol contracts
 
 **Arbitrum Goerli**
