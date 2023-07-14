@@ -8,65 +8,50 @@ sidebar_position: 2
 
 **Arbitrum One L2**
 
-| Name           | Symbol | Contract address                                                                                                          |
-| -------------- | ------ | ------------------------------------------------------------------------------------------------------------------------- |
-| MXC Token | MXC    | [0xaeDF7656fBB47c5B97dD529aC1D0e807E051f2dd](https://arbiscan.io/token/0xaeDF7656fBB47c5B97dD529aC1D0e807E051f2dd) |
+| Name         | Symbol | Contract address                                                                                                   |
+|--------------|--------|--------------------------------------------------------------------------------------------------------------------|
+| MXC Token    | MXC    | [0xaeDF7656fBB47c5B97dD529aC1D0e807E051f2dd](https://arbiscan.io/token/0xaeDF7656fBB47c5B97dD529aC1D0e807E051f2dd) |
 | L1 MXC Token | MXC    | [0x91b468Fe3dce581D7a6cFE34189F1314b6862eD6](https://arbiscan.io/token/0x91b468Fe3dce581D7a6cFE34189F1314b6862eD6) |
 
 **Ethereum Mainnet L1**
 
-| Name       | Symbol | Contract address                                                                                                                  |
-| ---------- | ------ | --------------------------------------------------------------------------------------------------------------------------------- |
-| MXC Token | MXC   | [0x5ca381bbfb58f0092df149bd3d243b08b9a8386e](https://etherscan.io/token/0x5ca381bbfb58f0092df149bd3d243b08b9a8386e) |
-
-
-
-
-
+| Name      | Symbol | Contract address                                                                                                    |
+|-----------|--------|---------------------------------------------------------------------------------------------------------------------|
+| MXC Token | MXC    | [0x5ca381bbfb58f0092df149bd3d243b08b9a8386e](https://etherscan.io/token/0x5ca381bbfb58f0092df149bd3d243b08b9a8386e) |
 
 ## Protocol contracts
 
-**Arbitrum Goerli**
+**Arbitrum One**
 
 | Contract name  | Contract address                                                                                                            |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| AddressManager | [0xF649e1d76D1D59aa8C1Ffe7026cBB9Ab9148c499](https://goerli.arbiscan.io/address/0xF649e1d76D1D59aa8C1Ffe7026cBB9Ab9148c499) |
-| Bridge         | [0xBb7a150E1247Da7B4c339f0997Bb18A4038147Af](https://goerli.arbiscan.io/address/0xBb7a150E1247Da7B4c339f0997Bb18A4038147Af) |
-| SignalService  | [0x1B80c7bCCEF6D6BEfB62Db052b3E3D782c566a4c](https://goerli.arbiscan.io/address/0x1B80c7bCCEF6D6BEfB62Db052b3E3D782c566a4c) |
-| MXCL1          | [0x92a78e9D3DfcfDe54d59845248508CAa59fe6d4f](https://goerli.arbiscan.io/address/0x92a78e9D3DfcfDe54d59845248508CAa59fe6d4f) |
-| TokenVault     | [0xbBf26D9E55311a5f9a184c330B5dA2C834d1Ed4B](https://goerli.arbiscan.io/address/0xbBf26D9E55311a5f9a184c330B5dA2C834d1Ed4B) |
+| AddressManager | [0x931A8fFCcdA64dC441bcca81Bd65Dc0C3d42Af74](https://arbiscan.io/address/0x931A8fFCcdA64dC441bcca81Bd65Dc0C3d42Af74) |
+| Bridge         | [0xA9c5519a7c1d85fB6d6695853787964a0D3d49A6](https://arbiscan.io/address/0xA9c5519a7c1d85fB6d6695853787964a0D3d49A6) |
+| SignalService  | [0xB612eb073ebc8638b8E445D7F15f02400e1d99d8](https://arbiscan.io/address/0xB612eb073ebc8638b8E445D7F15f02400e1d99d8) |
+| MXCL1          | [0x54D8864e8855A7B66eE42B8F2Eaa0F2E06bd641a](https://arbiscan.io/address/0x54D8864e8855A7B66eE42B8F2Eaa0F2E06bd641a) |
+| TokenVault     | [0xC31a6C0C1087BBB6E6660F27014aD1321591c641](https://arbiscan.io/address/0xC31a6C0C1087BBB6E6660F27014aD1321591c641) |
 
-**MXC Wannsee**
+**MXC Mainnet**
 
-| Contract name | Contract address                                                                                                                  |
-| ------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| Bridge        | [0x1000777700000000000000000000000000000004](https://wannsee-explorer.mxc.com/address/0x1000777700000000000000000000000000000004) |
-| EtherVault    | [0x1000777700000000000000000000000000000003](https://wannsee-explorer.mxc.com/address/0x1000777700000000000000000000000000000003) |
-| SignalService | [0x1000777700000000000000000000000000000007](https://wannsee-explorer.mxc.com/address/0x1000777700000000000000000000000000000007) |
-| MXCL2         | [0x1000777700000000000000000000000000000001](https://wannsee-explorer.mxc.com/address/0x1000777700000000000000000000000000000001) |
-| TokenVault    | [0x1000777700000000000000000000000000000002](https://wannsee-explorer.mxc.com/address/0x1000777700000000000000000000000000000002) |
+| Contract name | Contract address                                                                                                          |
+|---------------|---------------------------------------------------------------------------------------------------------------------------|
+| Bridge        | [0x1000777700000000000000000000000000000004](https://explorer.mxc.com/address/0x1000777700000000000000000000000000000004) |
+| EtherVault    | [0x1000777700000000000000000000000000000003](https://explorer.mxc.com/address/0x1000777700000000000000000000000000000003) |
+| SignalService | [0x1000777700000000000000000000000000000007](https://explorer.mxc.com/address/0x1000777700000000000000000000000000000007) |
+| MXCL2         | [0x1000777700000000000000000000000000000001](https://explorer.mxc.com/address/0x1000777700000000000000000000000000000001) |
+| TokenVault    | [0x1000777700000000000000000000000000000002](https://explorer.mxc.com/address/0x1000777700000000000000000000000000000002) |
+| LPWAN         | [0x2000777700000000000000000000000000000001](https://explorer.mxc.com/address/0x2000777700000000000000000000000000000001) |
 
 ## ERC-20 token contracts
 
-**Arbitrum Goerli**
+**Arbitrum One**
 
-| Name           | Symbol | Contract address                                                                                                          |
-| -------------- | ------ | ------------------------------------------------------------------------------------------------------------------------- |
-| Ride Token     | RIDE   | [0x30FB4a9d248EfDa58E7d324b7Bb6DB3Ee2bE4C44](https://goerli.arbiscan.io/token/0x30FB4a9d248EfDa58E7d324b7Bb6DB3Ee2bE4C44) |
-| Park Token     | PARK   | [0x253793f4E6Eea9c338dc4B0dA5F614CD98C2eB95](https://goerli.arbiscan.io/token/0x253793f4E6Eea9c338dc4B0dA5F614CD98C2eB95) |
-| Test MXC Token | MXC    | [0xFfaBAacF13C298B2d313F654931ED99858A005Ff](https://goerli.arbiscan.io/token/0xFfaBAacF13C298B2d313F654931ED99858A005Ff) |
+| Name      | Symbol | Contract address                                                                                                   |
+|-----------|--------|--------------------------------------------------------------------------------------------------------------------|
+| MXC Token | MXC    | [0xaeDF7656fBB47c5B97dD529aC1D0e807E051f2dd](https://arbiscan.io/token/0xaeDF7656fBB47c5B97dD529aC1D0e807E051f2dd) |
 
-**MXC Wannsee**
+**MXC Mainnet**
 
-| Name       | Symbol | Contract address                                                                                                                  |
-| ---------- | ------ | --------------------------------------------------------------------------------------------------------------------------------- |
-| Ride Token | RIDE   | [0x499A9b11b3A107e7ac45217C3401b3D0bF36A24C](https://wannsee-explorer.mxc.com/address/0x499A9b11b3A107e7ac45217C3401b3D0bF36A24C) |
-| Park Token | PARK   | [0x850e2d6329C0A99d53C52571CFc7ff8C319159fe](https://wannsee-explorer.mxc.com/address/0x850e2d6329C0A99d53C52571CFc7ff8C319159fe) |
-| Moon Token | MOON   | [0x13d65548C25A7448fDBb95ae1CC48266DfE0fc51](https://wannsee-explorer.mxc.com/address/0x13d65548C25A7448fDBb95ae1CC48266DfE0fc51) |
-
-## MXC Supernode addresses
-
-| Name                    | Address                                                                                                                     |
-| ----------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| MXC's oracle prover     | [0xfc836cC802af8c3705eead7696d6569C796dB4F3](https://goerli.arbiscan.io/address/0xfc836cC802af8c3705eead7696d6569C796dB4F3) |
-| MXC's personal proposer | [0x45A83F015D0265800CBC0dACe1c430E724D49cAc](https://goerli.arbiscan.io/address/0x45A83F015D0265800CBC0dACe1c430E724D49cAc) |
+| Name          | Symbol | Contract address                                                                                                          |
+|---------------|--------|---------------------------------------------------------------------------------------------------------------------------|
+| Wrapped Ether | ETH    | [0x35CD46846BD9946f3EFF35B672E0d516aF51C979](https://explorer.mxc.com/address/0x35CD46846BD9946f3EFF35B672E0d516aF51C979) |
