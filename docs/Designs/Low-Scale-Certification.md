@@ -21,12 +21,12 @@ sidebar_position: 7
 			- [1.8.4 Network Visualization](#184-network-visualization)
 			- [1.8.5 Hexagons and Consensus Groups](#185-hexagons-and-consensus-groups)
 	- [2. Design Aims](#2-design-aims)
-        - [2.1 Logic of Design](#21-logic-of-design)
-    	    - [2.1.1 Problem Definition](#211-problem-definition)
-    		- [2.1.2 Current Designs](#212-current-designs)
-    		- [2.1.3 Goal Of Design](#213-goal-of-design)
+        - [2.1 Logic of design](#21-logic-of-design)
+    	    - [2.1.1 Problem definition](#211-problem-definition)
+    		- [2.1.2 Current designs](#212-current-designs)
+    		- [2.1.3 Goal Of design](#213-goal-of-design)
 			- [2.1.4 Prerequisite](#214-prerequisite)
-			- [2.1.5 Advantage Live Tracking and Mirroring](#215-advantage-live-tracking-and-mirroring)
+			- [2.1.5 Advantage live tracking and mirroring](#215-advantage-live-tracking-and-mirroring)
 	    - [2.2 Synchronization of miners in network](#22-synchronization-of-miners-in-network)
 			- [2.2.1 Importance Of Synchronization](#221-importance-of-synchronization)
 			- [2.2.2 Our Synchronization Goal](#222-our-synchronization-goal)
@@ -186,7 +186,7 @@ By integrating MXC Hexagons with the Consensus Group structure, the MXC ecosyste
 
 ## Chapter 2: Design Aims
 
-### 2.1 Logic of Design
+### 2.1 Logic of design
 
 #### 2.1.1 Problem definition 
 The lack of a robust connection or bridge between the physical world (Earth) and the metaverse has led to challenges in ensuring the authenticity of devices and assets within the network. 
@@ -202,7 +202,7 @@ Another example is the use of blockchain technology to create digital tokens rep
 
 However, these solutions often fall short in providing a seamless and secure connection between the two worlds, leaving room for potential vulnerabilities and misrepresentations of digital assets.
 
-#### 2.1.3 Goal of Design 
+#### 2.1.3 Goal of design 
 The primary aim of the design is to establish a seamless connection between the metaverse and the physical world, ensuring the authenticity and security of devices and assets within the network. 
 
 By implementing robust proof of physical existence mechanisms, the design will protect the virtual economy from fraudulent activities and enable the traceability of items from the metaverse back to their real-world counterparts.
@@ -214,7 +214,7 @@ LSC provides a foundation of trust and verification for devices and assets, ensu
 
 This prerequisite is crucial in realizing the vision of bridging the gap between the physical world and the metaverse, promoting a secure and trustworthy environment for users and network participants.
 
-#### 2.1.5 Advantage Live Tracking and Mirroring 
+#### 2.1.5 Advantage live tracking and mirroring 
 
 One of the key advantages of this system is its ability to track items in both the physical and metaverse worlds in real-time. The location of an item in the physical world is accurately mirrored in the virtual metaverse, ensuring a consistent representation of objects and assets across both domains. 
 This live tracking capability allows users and network participants to seamlessly interact with and verify the presence of objects in both worlds, enhancing the overall user experience and trust in the system.
