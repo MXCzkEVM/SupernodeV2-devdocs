@@ -84,7 +84,7 @@ This technology is particularly suited for Internet of Things (IoT) applications
 
 LPWAN offers cost-effective and energy-efficient connectivity solutions for various industries, including agriculture, smart cities, logistics, and environmental monitoring.
 
-![](../../static/img/LSC_img/1.jpeg)
+![](/static/img/LSC_img/1.jpeg)
 
 
 ### 1.2 MXC Blockchain 
@@ -132,7 +132,7 @@ A quorum in a consensus group refers to the minimum number of participants or no
 
 These miners operate in the 2.4 GHz frequency band, which is a globally available and unlicensed spectrum commonly used for various wireless communication technologies, such as Wi-Fi and Bluetooth.
 
-![](../../static/img/LSC_img/2.png)
+![](/static/img/LSC_img/2.png)
 
 
 2.4 GHz LPWAN Miners contribute to the MXC network by verifying and validating transactions, maintaining the blockchain ledger, and facilitating secure communication between devices. 
@@ -147,7 +147,7 @@ Sub GHz LPWAN Miners are devices that participate in the operation of a Low Powe
 
 Sub GHz LPWAN Miners are particularly well-suited for applications requiring more extensive coverage or better penetration through obstacles, as the lower frequencies generally provide improved range and signal propagation characteristics compared to the 2.4 GHz band.
 
-![](../../static/img/LSC_img/3.jpeg)
+![](/static/img/LSC_img/3.jpeg)
 
 
 
@@ -288,7 +288,7 @@ Our method for LSC device provisioning involves three steps:
 
 - **Generate the PID:** 
 The PID is created by the Device owner on the Super Node using the MEP. The PID costs a fee. The SuperNode then creates an NFT on the blockchain with the PID attached to a secret, only visible to the owner of the NFT. The NFT is then sent to the Creator's wallet.
-![](../../static/img/LSC_img/4.png)
+![](/static/img/LSC_img/4.png)
 
 
 - **Program the PID into the device:** 
@@ -307,7 +307,7 @@ the Private ECC key will be only known to the device itself.
 
 The provisioning message sent by the Sensor Device is forwarded to the SuperNode by the Miner, who signs the message with its private key.
 
-![](../../static/img/LSC_img/5.png)
+![](/static/img/LSC_img/5.png)
 
 
 The Miner has its Public Key stored on the blockchain because it was provisioned earlier, so we know it is real. 
@@ -354,7 +354,7 @@ The process begins when a miner registers within a specific geographical area, k
 
 Once the miner's registration and location have been confirmed, it then links up with at least two other miners to form a consensus group. The configuration of this group depends on the type of miner. If it's a sub-GHz miner, each miner will be located in a separate hexagon. If it's a 2.4 GHz miner, then all three miners will reside in the same hexagon.
 
-![](../../static/img/LSC_img/6.jpeg)
+![](/static/img/LSC_img/6.jpeg)
 
 
 The consensus group then grows and expands, with each group verifying the locations of other consensus groups. The more substantial groups absorb the smaller ones, with the ultimate goal being the formation of a single, dominant consensus group. This growth and merging process is crucial for maintaining the network's stability and security, making it resistant to attacks and failures.
@@ -433,15 +433,15 @@ The Exit fee will be explained in the next section.
 **Scenarios:**
 1. **Relocation by Miner Owner:**
 In instances where the Miner Owner is relocating to a new place, the Miner Owner is required to pay the exit fee to unbind the miner from its original location. This allows the miner to be re-registered at the new location.
-![](../../static/img/LSC_img/7.jpeg)
+![](/static/img/LSC_img/7.jpeg)
 
 2. **Miner Malfeasance:** 
 If a miner is detected to be launching attacks on the network, it will be expelled from its Consensus Group. However, should the miner wish to join a new Consensus Group, the Miner Owner will be required to pay the exit fee to unbind the miner from its current location, thus allowing for its re-entry into a different Consensus Group.
-![](../../static/img/LSC_img/8.jpeg)
+![](/static/img/LSC_img/8.jpeg)
 
 3. **Temporary Relocation:** 
 In a situation where the Miner Owner temporarily relocates along with the miner to a different location, the Miner Owner has two options. The Miner Owner can choose to pay the exit fee to register the miner at the temporary location or refrain from paying the fee until they return to the original location where the miner is bound.
-![](../../static/img/LSC_img/10.jpeg)
+![](/static/img/LSC_img/10.jpeg)
 
 4. **Miner Attack:**
 If a miner is being subjected to attacks at the hardware level or the peer listening level, it may appear as if the miner is transmitting an incorrect location, seeming to be located in a different city/town/district/hexagon. Since the Miner Owner has the ability to decide whether or not to pay the exit fee to relocate the bound location of the miner, the miner can be safeguarded from this type of manipulation. During the attack, the miner will not participate in the Consensus Group until it returns to its bound location. This protects the network from potential harm, whether the miner is under attack or if the Miner Owner is launching an attack on the network.
@@ -452,10 +452,10 @@ The formation of a Consensus Group is a process that starts with smaller, indivi
 - **Initial Grouping:** The formation of a Consensus Group begins with the establishment of smaller clusters. These clusters will merge with each other to create a larger, unified Consensus Group.
 - **Group Composition:** A Consensus Group comprises at least three miners. For Sub GHz miners, each miner must be in a different hexagon. Conversely, for 2.4 GHz miners, all three should be located within the same hexagon.
 - **Score Threshold:** Each miner participating in the Consensus Group must have a miner score of 510 or above.
-![](../../static/img/LSC_img/11.jpeg)
+![](/static/img/LSC_img/11.jpeg)
 
 - **Location Validation:** The miners within a Consensus Group verify each other's locations using Time Difference of Arrival (TDoA) and Received Signal Strength Indicator (RSSI) measurements. These measurements allow each miner to determine the distance to other miners, which is equivalent to the radius of a circle centered on the miner. The miner is expected to be located along the circumference of this circle. The Miner Owner's uploaded coordinates, which were provided when the miner was bound to its location, should intersect with this calculated circumference, thus confirming the validity of the miner's location.
-![](../../static/img/LSC_img/12.png)
+![](/static/img/LSC_img/12.png)
 
 
 
@@ -540,20 +540,20 @@ A mutual agreement, represented by 51% or more of each cluster, that all locatio
 Consensus Groups are formed with the primary intention of evaluating each other to determine which one will absorb the other. This can lead to several potential scenarios:
 
 - Scenario 1: Consensus Group 1 possesses a higher score than Consensus Group 2. In this situation, Consensus Group 1, being superior, takes over Consensus Group 2, incorporating it into its structure.
-![](../../static/img/LSC_img/13.jpeg)
+![](/static/img/LSC_img/13.jpeg)
 
 - Scenario 2: Both Consensus Groups have identical scores but a varying number of miners. Here, the group with fewer miners gains precedence and takes over the larger Consensus Group. This decision hinges on the principle of promoting efficiency and reducing unnecessary redundancy.
-![](../../static/img/LSC_img/14.jpeg)
+![](/static/img/LSC_img/14.jpeg)
 
 
 - Scenario 3: Both Consensus Groups have equal scores and an equal number of miners. The resolution of this deadlock is achieved through a random selection of the group to take precedence and absorb the other.
-![](../../static/img/LSC_img/15.jpeg)
+![](/static/img/LSC_img/15.jpeg)
 
 - Scenario 4: A Consensus Group faces challenges in validation due to certain miners. The problematic miners are disbanded from the group, and new, qualified miners replace them to restore functionality.
-![](../../static/img/LSC_img/16.jpeg)
+![](/static/img/LSC_img/16.jpeg)
 
 - Scenario 5: A large Consensus Group is assessing another group, but some miners are unable to communicate with their counterparts due to the sheer scale of the group. In this case, a sub-Consensus Group forms, composed of miners that can engage with the target group. This sub-group then leads the evaluation process.
-![](../../static/img/LSC_img/17.jpeg)
+![](/static/img/LSC_img/17.jpeg)
 
 These scenarios reflect the adaptability and robustness of the consensus decision-making process, allowing for flexibility in various circumstances while maintaining the integrity and functionality of the network.
 
