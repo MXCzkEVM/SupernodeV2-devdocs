@@ -1,4 +1,6 @@
-
+---
+sidebar_position: 7
+---
 # Low-Scale-Certification
 
 ## Table of Contents
