@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# MXC Stable Coin (draft)
+# MXC Stable Coin (V1)
 
 MXC will be the largest Layer-3 IoT solution on Arbitrum ecosystem, bringing tremendous real-world items to NFT world and data to the blockchain. Undoubtedly each real-world item and each piece of data has its own value, and this kind of value is not from pure financial speculations, the value comes from real economy that serves our food, sports, transportation every day. 
 
@@ -13,9 +13,9 @@ XSD, in conjunction with MXC and DHX, aims to empower individuals and companies 
 
 
 
-As IoT [Swap](https://wannsee-swap.mxc.com/) shows, the IoT tokens like Ride token would be the major applications that use MXC network and DHX blockchain to build their own data economy. These Ride and Park token can be swapped in MXC Swap conveniently, through XSD trading pair. XSD will be the first IoT stable coin that are backed by real-world assets and data values, meanwhile serving for the digital and real-world economy.
+As IoT [Swap](https://swap.mxc.com/) shows, the IoT tokens like Ride token would be the major applications that use MXC network and DHX blockchain to build their own data economy. These Ride and Park token can be swapped in MXC Swap conveniently, through XSD trading pair. XSD will be the first IoT stable coin that are backed by real-world assets and data values, meanwhile serving for the digital and real-world economy.
 
-MXProtocol design and DataHighway DB both are aimed for validating the XSD stable coin，which is pegged to US dollars at start in 1:2 manner. Along with the NFC, LoraWAN and Satellite technologies, users are able to verify and validate the value of XSD are backed by collateral like Gin 1689 NFTs, and MXC/DHX/Ride tokens.
+MXProtocol design and its ecosystem both are aimed for validating the XSD stable coin，which is pegged to US dollars at start in 1:2 manner. Along with the NFC, LoraWAN and Satellite technologies, users are able to verify and validate the value of XSD are backed by collateral like Gin 1689 NFTs, and MXC/DG/Ride tokens.
 
 IoT NFTs need to reach a minimal IoT NFT transactions, in the initial roll-out is three transactions in order to become a collateral. This is to raise the attacking cost to enter the XSD mint basket.
 
@@ -35,7 +35,7 @@ In the following example, it shows how XSD is backed:
 | MXC token    | 1         | 2000     | 2000      | 5.3%       |
 | Ride token   | 2         | 100      | 200       | 0.6%       |
 | BTC          | 5000      | 1        | 5000      | 13.3%      |
-| DHX token    | 100       | 3        | 300       | 0.8%       |
+| ISO token    | 100       | 3        | 300       | 0.8%       |
 |              |           |          | 37500     | 100%       |
 
 This collateral can create **18750 XSD** with XSD/USD convertion rate 2. When people want to redeem let's say 100 XSD ride token, they will also have to reduce the amount of NFT value according to the 20/80 ratio, otherwise the burning of XSD won't be successful.
