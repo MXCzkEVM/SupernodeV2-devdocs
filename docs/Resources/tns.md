@@ -1,5 +1,5 @@
 ---
-sidebar_position: 11
+sidebar_position: 13
 ---
 
 # Terms & Service for AXS Layer3 Wallet
@@ -61,29 +61,24 @@ Please be advised that:
 - We reserve the right to modify, suspend, or discontinue our services at any time without prior notice. While we aim for continuous availability, we cannot guarantee uninterrupted service due to the decentralized nature of our operations.
 - The wallet is provided "as is" and "as available," without any warranties of any kind, either express or implied.
 
-## 11. Termination
 
-The AXS Layer3 Wallet reserves the right to:
-- Terminate user access for any reason, including but not limited to breaches of our T&S, receiving legal requests, or other unforeseen events.
-- Initiate the process of account deactivation or deletion in accordance with the MXC DAO Governance procedure.
-
-## 12. Links to Other Sites
+## 11. Links to Other Sites
 
 The Wallet may contain links to third-party sites or resources. We provide these links only for the convenience of our users and do not endorse the content, products, or services available from such third-party resources or sites.
 
-## 13. Communication
+## 12. Communication
 
 For a smooth and effective communication process:
 - Our preferred channel of communication with users is through the telegram support available in the app.
 - Users have the liberty to opt in or out of promotional communications via telegram.
 
-## 14. Feedback and Suggestions
+## 13. Feedback and Suggestions
 
 We greatly value input from our community:
 - We welcome and encourage feedback and suggestions.
 - Any feedback, suggestions, or improvements made become the exclusive property of the AXS Layer3 Wallet, and we reserve the right to implement, modify, or disregard any submitted ideas without any obligations to the user.
 
-## 15. Compliance with Laws
+## 14. Compliance with Laws
 
 As a user of the AXS Layer3 Wallet:
 - You are obligated to comply with all applicable local, state, national, and international laws, regulations, and sanctions related to your use of our services and your transactions.
