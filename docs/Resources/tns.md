@@ -58,7 +58,7 @@ To maintain the integrity and security of our platform:
 ## 10. Service Limitations and Modifications
 
 Please be advised that:
-- We reserve the right to modify, suspend, or discontinue our services at any time without prior notice. While we aim for continuous availability, we cannot guarantee uninterrupted service due to the decentralized nature of our operations.
+- We reserve the right to modify services at any time without prior notice to improve the experience for users. While we aim for continuous availability, we cannot guarantee uninterrupted service due to the decentralized nature of our operations.
 - The wallet is provided "as is" and "as available," without any warranties of any kind, either express or implied.
 
 
