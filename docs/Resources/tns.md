@@ -36,7 +36,7 @@ The AXS Layer3 Wallet offers a range of services including, but not limited to:
 ## 6. Limitation of Liability
 
 It is imperative to understand that:
-- You bear sole responsibility for the safekeeping of your private keys and the verification of your transactions.
+- You bear sole responsibility for the safekeeping of your private keys, the verification of your transactions, and the recovery of your funds if necessary.
 - The AXS Layer3 Wallet is a tool, and cannot intervene, recover lost funds, or reverse transactions once executed.
 
 ## 7. Fees
