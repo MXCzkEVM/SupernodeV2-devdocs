@@ -2,11 +2,11 @@
 sidebar_position: 13
 ---
 
-# Terms & Service for AXS Layer3 Wallet
+# Terms & Conditions for AXS Layer3 Wallet
 
 ## 1. Introduction and Acceptance
 
-Welcome to the AXS Layer3 Wallet. The AXS Layer3 Wallet ("the Wallet") is a digital service designed for the MXC zkEVM Layer 3 and all EVM compatible chains, primarily to facilitate interactions with Dapps in Layer3. By accessing, registering, or utilizing the AXS Layer3 Wallet, you ("the User") acknowledge that you have read, understood, and agreed to be bound by the following Terms & Service (T&S), and any future amendments and additions to this T&S as published from time to time at this location.
+Welcome to the AXS Layer3 Wallet. The AXS Layer3 Wallet ("the Wallet") is a digital service designed for the MXC zkEVM Layer 3 and all EVM compatible chains, primarily to facilitate interactions with Dapps in Layer3. By accessing, registering, or utilizing the AXS Layer3 Wallet, you ("the User") acknowledge that you have read, understood, and agreed to be bound by the following Terms & Conditions (T&C), and any future amendments and additions to this T&C as published from time to time at this location.
 
 ## 2. User Responsibilities
 
@@ -52,8 +52,8 @@ All intellectual properties, including but not limited to content, branding, tra
 ## 9. User Restrictions
 
 To maintain the integrity and security of our platform:
-- The use of the wallet for any illegal, unauthorized, or nefarious purposes is strictly prohibited.
-- Users from specific jurisdictions or sanctioned countries might face restrictions or prohibitions.
+- Users might face restrictions or prohibitions in specific jurisdictions or sanctioned countries, including those subject to OFAC regulations. 
+- These restrictions are in compliance with external legal obligations and international sanctions, not decisions made by our organization.
 
 ## 10. Service Limitations and Modifications
 
@@ -85,7 +85,7 @@ As a user of the AXS Layer3 Wallet:
 
 ## 16. Force Majeure
 
-The AXS Layer3 Wallet shall not be deemed in breach of this T&S or held liable for any cessation, interruption, or delay in the performance of its obligations due to causes beyond its reasonable control, including but not limited to earthquake, flood, war, terrorism, or governmental restrictions.
+The AXS Layer3 Wallet shall not be deemed in breach of this T&C or held liable for any cessation, interruption, or delay in the performance of its obligations due to causes beyond its reasonable control, including but not limited to earthquake, flood, war, terrorism, or governmental restrictions.
 
 ## 17. Miscellaneous
 
