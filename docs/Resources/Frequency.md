@@ -9,8 +9,8 @@ Last updated May 2023
 Numerous countries have released guidelines for unlicensed, permissionless spectrum usage by LPWAN devices, as outlined in the provided reference table. However, many countries still lack legal requirements in this area. Consequently, the MXC DAO must initiate a referendum to determine the appropriate frequency plan to employ in these regions.
 
 
-|          ISO 3166-1 Country or Region name             country code  |   Continent   | Band                   | Channel Plan           |
-|:----------------------------------------------------:|:--------------:|:-------------:|------------------------|------------------------|
+|          ISO 3166-1 Country or Region name           | country code |   Continent   | Band                   | Channel Plan           |
+|:----------------------------------------------------:|:------------:|:-------------:|------------------------|------------------------|
 |                     Afghanistan                      |      AF      |     Asia      | 920 - 925 MHz          | AS923-1                |
 |                    Aland Islands                     |      AX      |    Europe     | 863 - 870 MHz          | EU863-870              |
 |                       Albania                        |      AL      |    Europe     | 863 - 873 MHz          | EU863-870              |
@@ -170,7 +170,7 @@ Numerous countries have released guidelines for unlicensed, permissionless spect
 |                     Netherlands                      |      NL      |    Europe     | 863 – 870 MHz          | EU863-870              |
 |                    New Caledonia                     |      NC      |    Oceania    | 863 – 870 MHz          | EU863-870              |
 |                     New-Zealand                      |      NZ      |    Oceania    | 915 - 928 MHz          | AU915-928              |
-|                      Nicaragua                       |      NI      | North America | 915 - 928 MHz          | AU915-928                |
+|                      Nicaragua                       |      NI      | North America | 915 - 928 MHz          | AU915-928              |
 |                        Niger                         |      NE      |    Africa     | 865 – 865.6 MHz        | IN865-867              |
 |                       Nigeria                        |      NG      |    Africa     | 868 - 870 MHz          | EU863-870              |
 |                         Niue                         |      NU      |    Oceania    | 915 - 928 MHz          | AU915-928              |
