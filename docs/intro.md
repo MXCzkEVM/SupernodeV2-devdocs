@@ -11,13 +11,14 @@ If you are interested in learning about the basics of Zero-knowledge, EVM, and o
 
 :::
 
-## Welcome to MXC zkEVM Supernode V2
 
-MXC SupernodeV2 is a fully decentralized, Ethereum-equivalent Type 1 ZK-EVM ZK-Rollup built on [Arbitrum](https://arbitrum.io/) using [Taiko ZK](https://taiko.xyz/). 
+##Introducing MXC zkEVM Supernode V2
 
-MXC is a Web3 project aimed at being the Ethereum of IoT. Our team is composed of experienced developers and blockchain experts who have a deep understanding of the Web3 industry.
+Delve into the world of MXC SupernodeV2, a groundbreaking development in the realm of decentralized solutions. This Type 1 ZK-EVM ZK-Rollup, synonymous with Ethereum capabilities, is built atop Arbitrum harnessing the power of Taiko ZK.
 
-The MXC token is built on Arbitrum now as an IoT scaling solution, which offers more IoT usabilities like parking and garbage collection telemetry for Korea and New York government. The token is designed to be the next Ethereum of IoT to support [sensor token offering](https://www.mxc.org/blog/introducing-initial-sensor-offering-iso) and [NFT issuance](https://medium.com/mxc/mxprotocol-enters-multi-billion-dollar-nfc-market-4bb4a4a3e382) for [real-world goods](https://hackmd.io/3PYPxJ0nQ7W_YvEqtBGqzQ).
+MXC stands at the forefront of the Web3 revolution, with a clear vision of becoming the Ethereum for the Internet of Things (IoT). Our ensemble includes seasoned developers and blockchain aficionados, all of whom possess an intrinsic understanding of the ever-evolving Web3 landscape.
+
+Now anchored on Arbitrum, the MXC token elevates IoT scaling. It's not just a token; it's an innovative solution providing diverse IoT functionalities. From monitoring parking spaces to streamlining garbage collection in cities like Korea and New York, its applications are vast. Envisioned to be the next big thing after Ethereum in the IoT space, the token is poised to facilitate [sensor token offerings](https://www.mxc.org/blog/introducing-initial-sensor-offering-iso) and [NFT issuance](https://medium.com/mxc/mxprotocol-enters-multi-billion-dollar-nfc-market-4bb4a4a3e382) and [NFT issuances for tangible goods](https://hackmd.io/3PYPxJ0nQ7W_YvEqtBGqzQ).
 
 ![MXC](https://i.imgur.com/OnqcjdM.png)
 
