@@ -10,7 +10,8 @@ This guide will help you build a dapp on MXC (Wannsee testnet)! The starter dapp
 - A curiosity to learn and build.
 
 ## Steps
-1. Visit the [dapp-slaps starter template](https://github.com/MXCzkEVM/dapp-slaps) to create an Evm dapp with one-click.
+1. Try Token [airdrop templates](https://github.com/MXCzkEVM/token-airdrop-x2e) to create airdrop in one-click
+2. Visit the [dapp-slaps starter template](https://github.com/MXCzkEVM/dapp-slaps) to create an bridge dapp with one-click.
 
 
 ## Status page integration
