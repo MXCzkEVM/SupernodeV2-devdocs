@@ -12,8 +12,7 @@ By implementing this decentralized network architecture, businesses can have gre
 
 A more detailed illustration is as follows:
 
-
-<img src="/img/LPWAN.gif" alt="image" width="50%" height="auto">
+![LPWAN](/img/LPWAN.gif)
 
 ## MEPs
 
