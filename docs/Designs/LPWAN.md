@@ -21,14 +21,19 @@ MEP stands for MXC Evolution Proposal. Each MEP will be a proposal document prov
 
 Here is the list of subjects of MEPs:
 
-| Number               | Title                                                      | Type      | Status  |
-| -------------------- | ---------------------------------------------------------- | --------- | ------- |
-| [MEP-1](https://)     | Purpose and Guidelines of MEP                              | Process   | Living  |
-| [MEP-2](https://)    | Confirms the miner NFT belongs to the miner hardware       | Standards | Discussing |
-| [MEP-3](https://)     | Submit IoT data on-chain                                   | Standards | Discussing |
-| [MEP-6](https://)     | All data API are exposed to IPFS/MQTT                     | Standards | Discussing |
-| [MEP-8](https://)     | Push the firmware updates for the miners                   | Standards | Discussing |
-| [MEP-9](https://)     | LPWAN Chirpstack Removed Sudo, all the transactions done by Smart Contract | Standards | Discussing |
-| [MEP-10](https://)   | Submit the mining data on-chain                           | Standards | Discussing |
-| [MEP-12](https://)   | To be included to MXC explorer for data up and down       | Standards | Discussing |
+| MEP Number                        | Title                                                    | Type      | Status |
+| --------------------------------- | -------------------------------------------------------- | --------- | ------ |
+| [MEP-1](https://github.com/MXCzkEVM/MEPs/tree/main/proposals/mep-1.md) | Purpose and Guidelines | Process   | Living |
+| [MEP-20](https://github.com/MXCzkEVM/MEPs/tree/main/proposals/mep-20.md)     | Tokens Standrds on MXC zkEVM Chain                       | Standards | Living |
+| [MEP-721](https://github.com/MXCzkEVM/MEPs/tree/main/proposals/mep-721.md)   | Non-Fungible Token Standard on MXC zkEVM Chain           | Standards | Draft  |
+| [MEP-801](https://github.com/MXCzkEVM/MEPs/tree/main/proposals/mep-801.md)   | ISO Application Contract                                 | Standards | Draft  |
+| [MEP-802](https://github.com/MXCzkEVM/MEPs/tree/main/proposals/mep-802.md)   | ISO Provisioning Contract                                | Standards | Draft  |
+| [MEP-803](https://github.com/MXCzkEVM/MEPs/tree/main/proposals/mep-803.md)   | ISO Sensor Data Contract                                 | Standards | Draft  |
+| [MEP-804](https://github.com/MXCzkEVM/MEPs/tree/main/proposals/mep-804.md)   | ISO Reward Token Contract                                | Standards | Draft  |
+| [MEP-1002](https://github.com/MXCzkEVM/MEPs/tree/main/proposals/mep-1002.md) | Nestable Non-Fungible Tokens Tied to IoT Geolocations    | Standards | Living |
+| [MEP-1004](https://github.com/MXCzkEVM/MEPs/tree/main/proposals/mep-1004.md) | Non-Fungible Tokens Tied to IoT Radio Base Station Miner | Standards | Living |
+| [MEP-1759](https://github.com/MXCzkEVM/MEPs/tree/main/proposals/mep-1759.md) | MXC DApp Store Metadata Standard                         | Standards | Living|
+| [MEP-600](https://github.com/MXCzkEVM/MEPs/tree/main/proposals/mep-600.md)   | NFT NFC Contract                                         | Standards | Draft  |
+| [MEP-2542](https://github.com/MXCzkEVM/MEPs/tree/main/proposals/mep-2542.md) | Multi-Token Mining for MEP-1004 Radio Miners           | Standards | Living  |
+
 
