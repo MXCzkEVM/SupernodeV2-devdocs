@@ -12,9 +12,9 @@ If you are interested in learning about the basics of Zero-knowledge, EVM, and o
 :::
 
 
-##Introducing MXC zkEVM Supernode V2
+## Introducing MXC zkEVM Supernode V2
 
-Delve into the world of MXC SupernodeV2, a groundbreaking development in the realm of decentralized solutions. This Type 1 ZK-EVM ZK-Rollup, synonymous with Ethereum capabilities, is built atop Arbitrum harnessing the power of Taiko ZK.
+Delve into the world of MXC SupernodeV2, a groundbreaking development in the realm of decentralized solutions. This **Type 1 ZK-EVM** ZK-Rollup, synonymous with Ethereum capabilities, is built atop Arbitrum harnessing the power of Taiko ZK.
 
 MXC stands at the forefront of the Web3 revolution, with a clear vision of becoming the Ethereum for the Internet of Things (IoT). Our ensemble includes seasoned developers and blockchain aficionados, all of whom possess an intrinsic understanding of the ever-evolving Web3 landscape.
 
@@ -23,7 +23,7 @@ Now anchored on Arbitrum, the MXC token elevates IoT scaling. It's not just a to
 ![MXC](https://i.imgur.com/OnqcjdM.png)
 
 
-[Real world map](https://explorer.mxc.com)
+[Real world map](https://explorer.mxc.com/mapper)
 
 ## Use the zkEVM Mainnet
 
@@ -71,7 +71,7 @@ And there is a quick link for the bridge:
 
 ## Contribute to MXC
 
-MXC is a fully open source and community driven project, check out our Discord to get started as a contributor!
+MXC is a fully open source and community driven project, check out our Discord or Gihub to get started as a contributor!
 
 ## Join the Discord
 
