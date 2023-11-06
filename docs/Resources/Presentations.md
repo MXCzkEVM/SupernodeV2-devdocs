@@ -9,3 +9,4 @@ sidebar_position: 5
 - `2023-05-19`: [EDCON2023 Montenegro](https://www.youtube.com/watch?v=HTp7rPfLL8o&list=PL6dfW2OxzxT-LlqrEzyjEEDpuipFMatVu) 
 - `2023-07-06`: [Web3 Wave Event](https://www.youtube.com/live/ym6sZsi63CQ?feature=share)
 - `2023-07-11`: [Tea with Taiko - MXC - 2023/07/11](https://www.youtube.com/watch?v=Zo8cUwIAZMw)
+- `2023-08-02`: [MXC zkEVM | A Decentralized World Unleashed](https://www.youtube.com/watch?v=aOUkaMxuu_8)
