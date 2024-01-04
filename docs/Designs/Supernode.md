@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# MXC Supernode （V2）
+# MXC Supernode (V2)
 
 Previous documents published about MXC [SupernodeV1](https://www.mxc.org/supernode)
 
