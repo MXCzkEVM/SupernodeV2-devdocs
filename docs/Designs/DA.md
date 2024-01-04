@@ -2,6 +2,7 @@
 sidebar_position: 9
 ---
 
+# Data Availability
 >  With the CelestiaDA-powered MXC zkEVM DA module online with MXC zkEVM Mainnet, only state roots and a necessary subset of transaction data are sent to Arbitrum (L2), while the bulk of the transaction batch data is posted to the DA network. For decentralized applications (dApps) with high gas consumption, they can be executed at the same cost as a standard transaction (like a transfer) on MXC zkEVM, and the Arbitrum fee will not escalate with the complexity of L3 transaction execution. As a result, for transactions of high complexity, this approach can save up to approximately 70% of the cost compared to traditional L2 rollup fees on Arbitrum.
 
 ## What is Data Availability?
