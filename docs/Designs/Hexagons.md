@@ -4,7 +4,7 @@ sidebar_position: 10
 
 ## Hexagon-Based Geographical Partitioning
 
-![hex](https://github.com/MXCzkEVM/SupernodeV2-devdocs/blob/main/docs/Tutorials/img/name-hexagon/step2/getHexagonAddress.png)
+![hex](https://raw.githubusercontent.com/MXCzkEVM/SupernodeV2-devdocs/main/docs/Tutorials/img/name-hexagon/step2/getHexagonAddress.png)
 
 
 ### Concept Overview:
