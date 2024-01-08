@@ -73,3 +73,7 @@ const hexBoundary = h3.cellToBoundary(h3Index);
 // -> [ [37.341099093235684, -122.04156135164334 ], ...]
 ```
 
+
+## Name a hexagon
+
+The hexagons can be indexed and named using MNS : https://doc.mxc.com/docs/Tutorials/name-hexagon#5-navigate-back-to-wannsee-mns-and-set-hexagon-to-your-domain-name
