@@ -77,3 +77,7 @@ const hexBoundary = h3.cellToBoundary(h3Index);
 ## Name a hexagon
 
 The hexagons can be indexed and named using MNS : https://doc.mxc.com/docs/Tutorials/name-hexagon#5-navigate-back-to-wannsee-mns-and-set-hexagon-to-your-domain-name
+
+## DePINscriptions
+
+Hexagons are used to inscribe the DePINscriptions, enabling national pride for each country and region to trade their geographical inscriptions : https://depinscriptions.mxc.com/market
