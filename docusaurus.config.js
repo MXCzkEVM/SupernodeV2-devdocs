@@ -9,8 +9,8 @@ const projectName = "SupernodeV2-devdocs";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "MXC SupernodeV2 zkEVM",
-  tagline: "The next generation of IoT Web3",
+  title: "MXC MoonChain zkEVM",
+  tagline: "The next generation of DePIN Web3",
   url: `https://doc.mxc.com`,
   baseUrl: `/`,
   onBrokenLinks: "throw",
