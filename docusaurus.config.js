@@ -79,7 +79,7 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "MXC zkEVM SupernodeV2 Docs",
+            label: "MXC zkEVM Moonchain Docs",
           },
           
           {
