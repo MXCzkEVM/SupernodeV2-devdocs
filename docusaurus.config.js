@@ -5,7 +5,7 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 const organizationName = "MXCzkEVM";
-const projectName = "SupernodeV2-devdocs";
+const projectName = "Moonchain-devdocs";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
