@@ -30,10 +30,7 @@ Now anchored on Arbitrum, the MXC token elevates IoT/DePIN scaling. It's not jus
 Block explorer:
 [explorer](https://explorer.mxc.com)
 
-And there is a quick link for the bridge: 
 [L1 bridge](https://erc20.mxc.com) 
-
-[L2 bridge](https://bridge.mxc.com) 
 
 [IoT NFT](https://nft.mxc.com) 
 
@@ -45,7 +42,25 @@ And there is a quick link for the bridge:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ym6sZsi63CQ?start=4742" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## Use the Wannsee testnet
+## Use the Geneva testnet 
+
+All the instructions can be found under guides.
+
+Block explorer:
+[Geneva explorer](https://Geneva-explorer.moonchain.com)
+
+[Wannsee bridge/faucet](https://Geneva-bridge.moonchain.com) 
+
+[IoT NFT](https://geneva-nft.moonchain.com) 
+
+[IoT Swap](https://geneva-swap.moonchain.com) 
+
+[Hexagon Domain](https://geneva-mns.moonchain.com) 
+
+[Stable Coin](https://geneva-xsd.moonchain.com) 
+
+
+## Use the Wannsee testnet (DISCONTINUED)
 
 All the instructions can be found under guides.
 
