@@ -48,7 +48,6 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
           // remarkPlugins: [math],
           // rehypePlugins: [katex],
         },
@@ -58,7 +57,6 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
         },
-        editCurrentVersion: false,
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -134,7 +132,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} MXC DAO`,
+        copyright: `Copyright © ${new Date().getFullYear()} Moonchain`,
       },
       prism: {
         theme: lightCodeTheme,
