@@ -9,10 +9,13 @@ This documentation is still a Work In Progress. Some topics have been discussed 
 
 If you are interested in learning about the basics of Zero-knowledge, EVM, and other fundamental concepts behind MXC zkEVM, check out MXC [Twitter](https://twitter.com/MXCfoundation).
 
-<a href="https://doc.mxc.com/docs/Tutorials/configure-wallet" class="big-button">Configure your wallet to Moonchain</a>
+
 
 :::
-
+<a href="https://doc.mxc.com/docs/Tutorials/configure-wallet" class="big-button">Configure Your Wallet to Moonchain</a>
+<a href="https://doc.mxc.com/docs/Resources/RPC" class="big-button">Check RPC endpoints</a>
+<a href="https://doc.mxc.com/docs/Tutorials/run-a-supernode" class="big-button">Run a L3 validator node</a>
+<a href="https://doc.mxc.com/docs/Designs/Hexagons" class="big-button">DePIN hexagon</a>
 
 ## Introducing MXC zkEVM MoonChain
 
