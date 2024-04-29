@@ -9,6 +9,8 @@ This documentation is still a Work In Progress. Some topics have been discussed 
 
 If you are interested in learning about the basics of Zero-knowledge, EVM, and other fundamental concepts behind MXC zkEVM, check out MXC [Twitter](https://twitter.com/MXCfoundation).
 
+<a href="https://doc.mxc.com/docs/Tutorials/configure-wallet" class="big-button">Configure your wallet to Moonchain</a>
+
 :::
 
 
