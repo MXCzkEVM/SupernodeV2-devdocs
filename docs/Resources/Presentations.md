@@ -1,7 +1,16 @@
 ---
 sidebar_position: 5
 ---
-# Presentations
+# Brand Assets
+
+Logo: 
+Font Moonchain is SpaceX font, MoonchAin
+
+[Try this link](https://www.fontget.com/font/spacex/)
+
+[Image logo SVG download](https://github.com/MXCzkEVM/SupernodeV2-devdocs/tree/main/static/brand)
+
+## Presentations
 
 - `2022-07-18`: [Interchain Real-NFT with Kusama, DataHighway and MXC | Polkadot Decoded 2022](https://www.youtube.com/watch?v=GTnm5GYqero) 
 - `2022-05-16`: [Multi round Fraud Proofs: What, How, and Why.---Arbitrum](https://www.youtube.com/watch?v=NxvGatp9dIE) 
