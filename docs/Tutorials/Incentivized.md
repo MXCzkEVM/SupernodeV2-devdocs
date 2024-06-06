@@ -8,7 +8,7 @@ sidebar_position: 1
 
 MXC Token is already listed on Coinbase, Kraken, Crypto.com and Binance.us, there is no Presale or Public sale.
 
-The purpose of the Wannsee testnet is to bring the largest Web3 IoT network that MXC community built in 177 countries from 2018 to MXC zkEVM and Arbitrum ecosystem.
+The purpose of the Geneva testnet is to bring the largest Web3 IoT network that MXC community built in 177 countries from 2018 to Moonchain zkEVM and Arbitrum ecosystem.
 :::
 
 
