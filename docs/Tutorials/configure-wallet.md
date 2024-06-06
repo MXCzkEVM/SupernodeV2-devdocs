@@ -5,26 +5,27 @@ sidebar_position: 2
 
 # Configure Wallets
 
-This guide help you connect your wallet to MXC (Wannsee testnet). There are two networks to configure your wallet with:  
-**Arbiturm (goerli testnet)** and **MXC(Wannsee testnet)**
+This guide help you connect your wallet to Moonchain (Geneva testnet). There are two networks to configure your wallet with:  
+**Moonchain(Genenva testnet)** and **Ethereum(Sepolia testnet)**
 
 ## Prerequisites
 
 - You have a wallet installed and ready to use. Some examples are MetaMask and Frame. Please use a hot wallet (not a hardware wallet) for this guide, preferably a throwaway wallet.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HTp7rPfLL8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=y0MeycuNmEo&t=68s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Steps
 
-### 1. Add the Arbitrum Goerli testnet
-Visit [https://chainid.network/](https://chainid.network/), search for "Arbitrum Goerli", and click the "Add Chain" button.
+### 1. Add the Ethereum Sepolia testnet
+Visit [https://chainlist.org/chain/11155111/](https://chainlist.org/chain/11155111), Connect with your wallet, then click on 'Add to Metamask' for one of the RPC Server Addresses
 
-### 2. Add the MXC Wannsee testnet
-Visit [https://chainid.network/](https://chainid.network/), **in filter click "Show Testnet"** then search for "MXC Wannsee", and click the "Add Chain" button.
+### 2. Add the Moonchain Geneva testnet
+Visit [https://doc.mxc.com/docs/Resources/RPC](https://doc.mxc.com/docs/Resources/RPC), here you see the RPC Configuration. Open your Metamask wallet, click on the network selection at the top right, and then first click on 'Add Network' and then 'Add a network manually'. Now, enter the RPC configuration details for Moonchain Geneva testnet.
 
-### 3. Add MXC, Ride, Park tokens to your wallet
-Use your wallet (e.g., Metamask) and [import the tokens](https://support.ledger.com/hc/en-us/articles/6375103346077-Add-custom-tokens-to-MetaMask?docs=true) with [this configuration](/docs/Resources/Address#erc-20-token-contracts).
+## Connection to Moonchain Mainnet
+Visit [https://doc.mxc.com/docs/Resources/RPC](https://doc.mxc.com/docs/Resources/RPC), here you see the RPC Configuration. Open your Metamask wallet, click on the network selection at the top right, and then first click on 'Add Network' and then 'Add a network manually'. Now, enter the RPC configuration details for Moonchain Mainnet.
 
 ## Troubleshooting
-### The add chain buttons did not work
-Try to manually add the network to your wallet using the [RPC configuration](/docs/Resources/RPC).
+### Metamask doesn't accept the provided RPC Server Address
+Try a different RPC Address from ChainList, as not all provided addresses may work correctly.
+If the problem persists, you can manually enter the RPC address as mentioned in Step 2.
