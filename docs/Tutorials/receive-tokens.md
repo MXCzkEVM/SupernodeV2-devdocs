@@ -16,7 +16,7 @@ This guide will help you receive testnet tokens for Geneva testnet and Arbitrum 
 
 - You should already have an Ethereum wallet address to accept the testnet tokens. Metamask wallet is preferred.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=071DqMsLmTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/071DqMsLmTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Steps
 
