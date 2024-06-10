@@ -12,15 +12,15 @@ This guide help you connect your wallet to Moonchain (Geneva testnet). There are
 
 - You have a wallet installed and ready to use. Some examples are MetaMask and Frame. Please use a hot wallet (not a hardware wallet) for this guide, preferably a throwaway wallet.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=y0MeycuNmEo&t=68s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y0MeycuNmEo?start=68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Steps
 
-### 1. Add the Ethereum Sepolia testnet
-Visit [https://chainlist.org/chain/11155111/](https://chainlist.org/chain/11155111), Connect with your wallet, then click on 'Add to Metamask' for one of the RPC Server Addresses
-
-### 2. Add the Moonchain Geneva testnet
+### 1. Add the Moonchain Geneva testnet
 Visit [https://doc.mxc.com/docs/Resources/RPC](https://doc.mxc.com/docs/Resources/RPC), here you see the RPC Configuration. Open your Metamask wallet, click on the network selection at the top right, and then first click on 'Add Network' and then 'Add a network manually'. Now, enter the RPC configuration details for Moonchain Geneva testnet.
+
+### 2. Add the Arbitrum One (Sepolia) testnet
+Visit (https://chainlist.org/chain/42161)/, Connect with your wallet, then click on 'Add to Metamask' for one of the RPC Server Addresses
 
 ## Connection to Moonchain Mainnet
 Visit [https://doc.mxc.com/docs/Resources/RPC](https://doc.mxc.com/docs/Resources/RPC), here you see the RPC Configuration. Open your Metamask wallet, click on the network selection at the top right, and then first click on 'Add Network' and then 'Add a network manually'. Now, enter the RPC configuration details for Moonchain Mainnet.
