@@ -109,8 +109,8 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Discord",
-                href: "https://discord.com/invite/mxcfoundation",
+                label: "Telegram",
+                href: "https://t.co/uUAQUXsDVB",
               },
               {
                 label: "Twitter",
