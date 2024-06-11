@@ -25,11 +25,9 @@ This guide will help you receive testnet tokens for Geneva testnet and Arbitrum 
 - Insert your Wallet Address
 - Send Geneva testnet MXC to your Wallet
 
-### 2. Claim & Receive Sepolia ETH on Sepolia
-- Navigate to the [Ethereum Sepolia Faucet](https://sepolia-faucet.com/)
+### 2. Claim & Receive ETH on Arbitrum One (Sepolia)
+- Navigate to the [Arbitrum One (Sepolia) Faucet](https://faucet.triangleplatform.com/arbitrum/sepolia)
 - Insert your Wallet Address and solve the Captcha
-- Click the 'Start earning Sepolia'-Button, you are now mining your Sepolia ETH.
-- When the minimum withdraw amount is reached you are able to withdraw yout Sepolia ETH 
-- Click on 'Stop the process & Receive Sepolia reward'-Button to withdraw your Sepolia ETH
+- Click the 'Request 0.001 ETH' button to receive your ETH token.
 
 You have successfully received tokens on both Ethereum Sepolia and Moonchain Geneva L2
