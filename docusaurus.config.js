@@ -11,7 +11,7 @@ const projectName = "MEPs";
 const config = {
   title: "MXC MoonChain zkEVM",
   tagline: "The next generation of DePIN Web3",
-  url: `https://doc.mxc.com`,
+  url: `https://doc.moonchain.com`,
   baseUrl: `/`,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
@@ -71,7 +71,7 @@ const config = {
         logo: {
           alt: "MXC",
           src: "img/mxc.svg",
-          href: "https://mxc.org",
+          href: "https://moonchain.com",
         },
         items: [
           {
@@ -114,7 +114,7 @@ const config = {
               },
               {
                 label: "Twitter",
-                href: "https://t.me/mxcfoundation",
+                href: "https://t.me/Moonchain_com",
               },
             ],
           },
@@ -123,7 +123,7 @@ const config = {
             items: [
               {
                 label: "Website",
-                href: "https://www.mxc.org/",
+                href: "https://www.moonchain.com/",
               },
               {
                 label: "GitHub",
