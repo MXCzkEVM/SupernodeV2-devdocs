@@ -30,7 +30,7 @@ Welcome to the official developer documentation for MXC MoonChain zkEVM. Dive in
 
 Delve into the innovative realm of MXC MoonChain, designed to be the Ethereum for the Internet of Things (IoT) and DePIN. Our seasoned developers and blockchain aficionados are at the forefront of the Web3 revolution.
 
-### Key Features
+### 🌔 Key Features
 - IoT/DePIN Scaling: Elevate IoT/DePIN scaling with the MXC token.
 - Diverse Applications: From monitoring parking spaces to streamlining garbage collection in cities like Korea and New York.
 - Next-Gen Token: Facilitates sensor token offerings and NFT issuances for [tangible goods](https://hackmd.io/3PYPxJ0nQ7W_YvEqtBGqzQ).
