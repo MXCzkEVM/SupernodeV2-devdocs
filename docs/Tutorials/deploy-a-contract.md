@@ -18,7 +18,8 @@ This guide will help you deploy a smart contract to Moonchain (Geneva testnet) u
 - Have some Test MXC Token on Moonchain Geneva:
     - [Request Test MXC Token](/docs/Tutorials/receive-tokens) from the faucet.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=OPyRcqAup8o&t=223s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OPyRcqAup8o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## Steps
 
