@@ -1,36 +1,82 @@
 ---
-title: Blockchain Indexer
+title: Deploying a Subgraph on Geneva Testnet Part I
 sidebar_position: 7
 ---
-:::caution
-An indexer typically refers to a third-party service that offers API pricing models.
-:::
 
-This guide will help you get your subgraph work.
+## Deploying a Subgraph on Geneva Testnet Part I
 
-![](https://youtu.be/yKNxeF4KMsY)
+This tutorial will guide you through deploying an already initialized subgraph tailored for the MXCMarketplace smart contract on the Geneva Testnet using The Graph.
 
-## Goldsky
+## The Graph
 
-[Goldsky](https://www.goldsky.com/) provides real-time and historical access to data stored on blockchains and lets you transform, enhance, and integrate that data with real-time streams to meet your custom needs.
+[The Graph](https://thegraph.com/) allows developers to query blockchain data easily using GraphQL. It provides powerful tools to index blockchain data and serve it through a GraphQL endpoint, enabling efficient data access for decentralized applications.
 
-The easiest way to get testing would be to use their instant subgraphs feature, [docs here](https://docs.goldsky.com/references/instant-subgraphs-configuration)
+To get started with deploying our preinitited subgraph on the Geneva Testnet, follow the steps below:
 
-In the config file the chain is " **mxc-wannsee** "
+### Prerequisites
 
-Users can build any subgraph , then instead of using graph deploy, you could use the following command.
-```
-goldsky subgraph deploy 
+1. **Clone the Repository:**
+    First, clone the repository and switch to the `geneva` branch:
 
-```
+    ````
+    git clone --branch geneva https://github.com/MXCzkEVM/mxc-nft-graph.git
+    cd mxc-nft-graph
+    ````
+2. **Install Required Packages:**
+    Install the necessary packages:
+    ````
+    yarn add global package.json
+    ````
+### Steps for deployment
 
-![goldsky](/img/goldsky.jpeg)
+Note: In this tutorial section, we omit the 'init' command typically used to initialize a new subgraph. This is because Geneva Testnet and similar non-standard networks are not supported by the standard init command of The Graph. Instead, we focus on generating the subgraph code directly from the existing schema.
 
-# Difference between Goldsky and The Graph
+Please refer to Part 2 of this tutorial series for advanced configurations and specific setup instructions tailored to non-standard networks like Geneva Testnet.
 
-The same subgraph API that your apps already use
-- A load-balanced network of third-party and on-prem RPC nodes to improve performance and reliability
-- Tagging and versioning for hot-swapping subgraphs, allowing for seamless updates
-- Alerts and auto-recovery in case of subgraph data consistency issues due to corruption from re-orgs or other issues
-- A world-class team who monitors your subgraphs 24/7
+1. **Code Generation:**
+    Generate the subgraph code:
 
+    ````
+    graph codegen
+    ````
+2. **Build the Subgraph:**
+    Build & compile the subgraph:
+    ````
+    graph build
+    ````
+3. **Create the Subgraph**
+    Generate the subgraph code, replacing <SUBGRAPH-NAME> with the actual name of your subgraph:
+
+    ````
+    graph create --node http://geneva-graph-node.moonchain.com:8020/ <SUBGRAPH-NAME>
+    ````
+4. **Deploy the Subgraph:**
+    Deploy the subgraph using graph deploy to the Geneva Testnet node specified. Again, replace <SUBGRAPH-NAME> with the actual name of your subgraph:
+
+    ````
+    graph deploy --node http://geneva-graph-node.moonchain.com:8020/ <SUBGRAPH-NAME>
+    ````
+    Upon successful deployment, you will receive the URL where you can interact with your MXCMarketplace subgraph.
+
+### Conclusion
+
+Use GraphQL queries such as the following example to explore and utilize the capabilities of your deployed subgraph:
+
+    query {
+        marketplaceOrderInfos {
+        id
+        assetId
+        seller
+        nftAddress
+        blockNumber
+        blockTimestamp
+        transactionHash
+        event
+        priceInWei
+        expiresAt
+        totalPrice
+        buyer
+        }
+    }
+
+This query retrieves information about orders made on the marketplace, demonstrating how you can leverage your subgraph to access and analyze marketplace order data effectively on the Geneva Testnet.
