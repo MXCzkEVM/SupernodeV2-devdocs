@@ -1,7 +1,7 @@
 ---
-sidebar_position: 5
+sidebar_position: 1
 ---
-# Brand Assets & Presentations
+# 🎁 Brand Assets & Presentations
 
 ## Logo: 
 Font Moonchain is SpaceX font, MoonchAin [Try this link](https://www.fontget.com/font/spacex/)
