@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 5
 ---
 
-# Smart Contracts L1/L2
+# 🕹Smart Contracts L1/L2
 
 Here you can find all the L1/L2 contracts
 
