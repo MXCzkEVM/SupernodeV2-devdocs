@@ -32,16 +32,16 @@ This guide will help you name a Hexagon using any of your Hexagon Domain Name
 ![connect wallet](./img/dominic/hex2.jpg)
 
 ### 4. Set the name of our Hexagon
-- After the confirmed mint of your hexagon your are able to name it a MNS name.
-- For this, click on the 'Set to MEP1002 Hexagon'-Button
+- After the confirmed mint of your Hexagon, you are able to name it with an MNS name.
+- To do this, click on the "Set to MEP1002 Hexagon" button.
 - In the pop-up again enter the hexadecimal number of your selected map area. 
-- If you need this number again, you can use the address of your minted hexagon to search for it in [Geneva ZK Explorer](https://geneva-explorer.moonchain.com/)
+- If you need this number again, you can use the address of your minted hexagon to search for it in the [Geneva ZK Explorer](https://geneva-explorer.moonchain.com/)
 - the searched hexadecimal number is the minted token id converted from decimal to hexadecimal
 
 ![connect wallet](./img/dominic/hex5.jpg)
 ![connect wallet](./img/dominic/dexToHex.jpg)
 
-- After entering the number click confirm and approve the transaction in your wallet. Keep the popup uoen until the transaction is completed.
+- After entering the number click confirm and approve the transaction in your wallet. Keep the popup open until the transaction is completed.
 ![connect wallet](./img/dominic/hex6.jpg)
 
 ### 6. Confirm the Hexagon was set to your Domain Name
