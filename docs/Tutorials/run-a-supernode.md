@@ -1,18 +1,17 @@
 ---
-title: Run MXC Supernode
+title: Run Moonchain Supernode
 sidebar_position: 5
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-This guide will walk you through the process of operating a MXC supernode via [simple-mxc-node](https://github.com/MXCzkEVM/simple-mxc-node). You will be able to:
+This guide will walk you through the process of operating a Moonchain supernode via [simple-mxc-node](https://github.com/MXCzkEVM/simple-mxc-node). You will be able to:
 
-- Run a MXC supernode easily from the command line on Windows, Mac, and Linux.
-- Run a MXC supernode regularly or as a prover.
+- Run a Moonchain supernode easily from the command line on Windows, Mac, and Linux.
+- Run a Moonchain supernode regularly or as a prover.
 - View a [Grafana](https://grafana.com/) dashboard which displays the node's status.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6QI9YxFskYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Prerequisites
 
@@ -22,14 +21,9 @@ This guide will walk you through the process of operating a MXC supernode via [s
 - Consult the [Geth minimum hardware requirements](https://github.com/ethereum/go-ethereum#hardware-requirements), with the exception of 1TB of free space (you won't need much, even ~50GB should suffice).
 ## Steps
 
-### Staking MXC on MXCL1 contract
-Staking Test MXC Token [here](https://wannsee-bridge.mxc.com/#/stake)
-![stake](./img/stake.png)
-
-
 ### Clone simple-mxc-node
 ```sh
-git clone https://github.com/MXCzkEVM/simple-mxc-node
+git clone https://github.com/MXCzkEVM/simple-mxc-node/geneva
 cd simple-mxc-node
 ```
 
@@ -71,15 +65,21 @@ You can get a Arbiturm L1 endpoint from a few places,
 are popular RPC providers. 
 :::
 
-**Make sure you select the RPC as Arbiturm Goerli testnet, and not Ethereum mainnet**.
+**Make sure you select the RPC as Arbiturm Sepolia testnet, and not Ethereum mainnet**.
 
+### Set Permissions and create Folders
+Create the necessary directories and set the permissions so that the Docker containers can access and write to them:
+```
+mkdir -p ./data/l2_execution_engine_data ./data/zkevm_chain_prover_rpcd_data ./data/prometheus_data ./data/grafana_data ./docker/prometheus ./docker/grafana/custom
+sudo chmod -R 777 ./data ./docker
+```
 ### Enable your supernode as a prover (optional)
 
 See [enable a prover](/docs/Tutorials/enable-a-prover) for more information.
 
 ### Start a supernode
 :::caution
-It may take some time to synchronize from the genesis block. You can monitor this progress through logs, or in the local grafana dashboard and see the latest L2 chain status in the [MXC Wannsee block explorer](https://wannsee-explorer.mxc.com/).
+It may take some time to synchronize from the genesis block. You can monitor this progress through logs, or in the local grafana dashboard and see the latest L2 chain status in the [MXC Geneva block explorer](https://geneva-explorer.moonchain.com/).
 :::
 Make sure Docker is running and then run the following command to start the supernode. If you want to run it in the background, please add the `-d` flag (`docker compose up -d`).
 
@@ -161,6 +161,9 @@ You can ignore any WARN logs.
 ### Supernode error logs
 #### `error: L1_STAKE_AMOUNT`
 You need to stake 5000 MXC on MXCL1 contract to run a supernode as a proposer.
+
+#### `mkdir: can't create directory [...]: Permission denied`
+Make sure you gave the needed permissions to the node.
 
 #### `error: L1_ID`
 The block that you want to prove has already been verified, you can ignore this.
