@@ -6,7 +6,7 @@ sidebar_position: 5
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-This guide will walk you through the process of operating a Moonchain supernode via [simple-mxc-node](https://github.com/MXCzkEVM/simple-mxc-node). You will be able to:
+This guide will walk you through the process of operating a Moonchain supernode via [simple-mxc-node](https://github.com/MXCzkEVM/simple-mxc-node/geneva). You will be able to:
 
 - Run a Moonchain supernode easily from the command line on Windows, Mac, and Linux.
 - Run a Moonchain supernode regularly or as a prover.
