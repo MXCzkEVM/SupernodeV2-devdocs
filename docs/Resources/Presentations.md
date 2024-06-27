@@ -1,12 +1,10 @@
 ---
-sidebar_position: 5
+sidebar_position: 1
 ---
-# Brand Assets
+# 🎁 Brand Assets & Presentations
 
-Logo: 
-Font Moonchain is SpaceX font, MoonchAin
-
-[Try this link](https://www.fontget.com/font/spacex/)
+## Logo: 
+Font Moonchain is SpaceX font, MoonchAin [Try this link](https://www.fontget.com/font/spacex/)
 
 [Image logo SVG download](https://github.com/MXCzkEVM/SupernodeV2-devdocs/tree/main/static/brand)
 
@@ -21,3 +19,4 @@ Font Moonchain is SpaceX font, MoonchAin
 - `2023-08-02`: [MXC zkEVM | A Decentralized World Unleashed](https://www.youtube.com/watch?v=aOUkaMxuu_8)
 - `2023-10-02`: [DWF Chats S2|E5: Xin Hu,  MXC DAO](https://www.youtube.com/watch?v=-pCElEMtLAA)
 - `2023-12-16`: [MXC zkEVM real-world sensor demo](https://www.youtube.com/watch?v=30_Psventos&t=3s)
+- `2024-04-06`: [Hongkong DePIN Summit JDI](https://www.youtube.com/live/WvlbL-OOtvY?si=5cpcKuOf6YETps0V&t=9107)

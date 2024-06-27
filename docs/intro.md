@@ -1,21 +1,19 @@
 ---
 sidebar_position: 1
 ---
-# Executive Summary
+# A Brief Introduction
+
+Welcome to the official developer documentation of Moonchain. Dive into the world of decentralized solutions with our groundbreaking Type 1 zk-EVM and zk-Rollups, built on top of Arbitrum and harnessing the power of Taiko ZK.
 
 :::tip WIP
 
-This documentation is still a Work In Progress. Some topics have been discussed in greater depth, while others require additional clarification. Sections of this documentation might later be reorganized in order to achieve a better flow.
+This documentation is still a work in progress. Some topics have been discussed in greater depth, while others require additional clarification. Sections of this documentation might be reorganized later to achieve a better flow.
 
-If you are interested in learning about the basics of Zero-knowledge, EVM, and other fundamental concepts behind MXC zkEVM, check out Moonchain [Twitter](https://twitter.com/Moonchain_com).
-
-
+If you are interested in learning about the basics of zero-knowledge proofs, EVM, and other fundamental concepts behind our Layer 3 zkEVM, check out Moonchain on [Twitter](https://twitter.com/Moonchain_com).
 
 :::
-Welcome to the official developer documentation for MXC MoonChain zkEVM. Dive into the world of decentralized solutions with our groundbreaking Type 1 ZK-EVM ZK-Rollup built atop Arbitrum, harnessing the power of Taiko ZK.
 
 # 🚀  Getting Started
-
 
 
 <a href="https://doc.moonchain.com/docs/Tutorials/configure-wallet" class="big-button">Configure Your Wallet to Moonchain</a>
