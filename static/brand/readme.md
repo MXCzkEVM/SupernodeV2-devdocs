@@ -1,1 +1,0 @@
-Moonchain Brand Assets
