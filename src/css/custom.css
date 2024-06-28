@@ -1,0 +1,143 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #000000;
+  --ifm-color-primary-dark: #000000;
+  --ifm-color-primary-darker: #000000;
+  --ifm-color-primary-darkest: #000000;
+  --ifm-color-primary-light: #000000;
+  --ifm-color-primary-lighter: #000000;
+  --ifm-color-primary-lightest: #000000;
+  --ifm-background-color: #e6e6e6;
+  --ifm-code-font-size: 95%;
+  --ifm-link-color: #4C74F4;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --aa-primary-color-rgb: 0, 0, 0 !important;
+  --aa-muted-color-rgb: 0, 0, 0 !important;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #ffffff;
+  --ifm-color-primary-dark: #e6e6e6;
+  --ifm-color-primary-darker: #d9d9d9;
+  --ifm-color-primary-darkest: #b3b3b3;
+  --ifm-color-primary-light: #ffffff;
+  --ifm-color-primary-lighter: #ffffff;
+  --ifm-color-primary-lightest: #ffffff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-background-color: #2b2b2b;
+  --ifm-link-color: #4C74F4;
+  --aa-primary-color-rgb: 255, 255, 255 !important;
+  --aa-muted-color-rgb: 255, 255, 255 !important;
+}
+
+.big-button {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: transparent; /* Transparent background */
+    color: #000000; /* Black text color */
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 0px;
+  overflow: hidden; /* Hide overflow to ensure the pseudo-element stays within the button */
+  z-index: 1; /* Ensure the button content is above the pseudo-element */
+  transition: color 0.3s; /* Transition for text color */
+  box-sizing: border-box;
+  box-shadow: inset 0 0 0 1px;
+}
+
+.big-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%; /* Start off-screen to the left */
+  width: 100%;
+  height: 100%;
+  background-color: #727883;
+  transition: left 0.3s ease-out;
+  z-index: -1; /* Place the pseudo-element behind the button content */
+}
+
+.big-button:hover::before {
+  left: 0; /* Slide in from left */
+}
+
+.big-button:hover {
+  color: #ffffff; /* Text color on hover */
+  border: none;
+}
+
+[data-theme='dark'] .big-button {
+  background-color: #FFFFFF;
+  border: none;
+}
+
+.badge {
+  background-color: #DADADA;
+  border: var(--ifm-badge-border-width) solid var(--ifm-badge-border-color);
+  border-radius: var(--ifm-badge-border-radius);
+  color: #000000;
+  font-size: 75%;
+  font-weight: var(--ifm-font-weight-bold);
+  line-height: 1;
+  padding: var(--ifm-badge-padding-vertical) var(--ifm-badge-padding-horizontal)
+}
+
+[data-theme='dark'] .badge {
+  background-color: #272729;
+  color: #FFFFFF;
+}
+
+.aa-DetachedSearchButton {
+  border-radius: 10px !important;
+}
+
+.aa-DetachedSearchButtonPlaceholder {
+  padding-right: 10px !important;
+}
+
+.toggle_node_modules-\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module {
+  width: 2rem !important;
+  height: 2rem !important;
+}
+
+.markdown table {
+  font-size: 12.5px;
+  margin-top: 20px;
+}
+
+.table {
+  border-collapse: collapse;
+  display: block;
+  margin-bottom: var(--ifm-spacing-vertical)
+}
+
+.pre,table {
+  overflow: auto;
+}
+
+*,.algolia-autocomplete .ds-dropdown-menu *,.searchbox,.searchbox__input {
+  box-sizing: border-box;
+}
+
+.table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  unicode-bidi: isolate;
+  border-spacing: 2px;
+  border-color: gray;
+}
+
+.markdown > *:last-child {
+  margin-bottom: 30px !important;
+}

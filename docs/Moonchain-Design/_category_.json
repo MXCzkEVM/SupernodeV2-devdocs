@@ -1,0 +1,8 @@
+{
+  "label": "Moonchain Design",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Moonchain is dedicated to establishing a secure, decentralized, and permissionless rollup on Ethereum Virtual Machine (EVM), akin to platforms like Arbitrum. Central to its architecture is the necessity for publicly accessible block data, essential for reconstructing post-block states and generating proofs. The design emphasizes rapid and efficient block creation and proposal processes to ensure equitable access to chain data and foster fair competition among proposers. This framework extends to transparent access to transaction fees and MEV (Miner Extractable Value), supporting a robust and inclusive blockchain ecosystem."
+  }
+}
