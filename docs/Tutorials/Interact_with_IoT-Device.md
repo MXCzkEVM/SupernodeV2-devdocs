@@ -101,11 +101,11 @@ cast send 0x28479D68cD3ef5661BDB7505EFD1712D5D0951F6 "producePid(string,uint256,
 
 Wait for few minutes after the transaction done, you will receive a email and attached with the PID csv file.
 
-![pid_email](assets/pid_email.png)
+![pid_email](./img/x2e/assets/pid_email.png)
 
 Please read the PID `K2ILSDXUOO3O4EEIWZDDW6SL` from the attached file and use it to set up the X2E board. You will also need the pidZkevmHash (5th column) when interacting with Moonchain.
 
-![pid_csv](assets/pid_csv.png)
+![pid_csv](./img/x2e/assets/pid_csv.png)
 
 
 
@@ -121,7 +121,7 @@ minicom -b 115200 -8  -D /dev/ttyACM0 -o
 
 Then send a "AT" command to test the connection. If the connection is correct, the X2E will reply a "OK".
 
-![AT_OK](assets/at_ok.png)
+![AT_OK](./img/x2e/assets/at_ok.png)
 
 Send the following command at the serial terminal program to change the PID of the X2E board. *Replace the PID to the one got from previous steps.* You will get a OK if success.
 
@@ -135,13 +135,13 @@ Clear all data and reboot.
 AT+IREBOOT=8
 ```
 
-![x2e_reboot](assets/x2e_reboot.png)
+![x2e_reboot](./img/x2e/assets/x2e_reboot.png)
 
 Wait for a while, the X2E board will finish the provisioning process with the new PID. Then it will start to join the network and sending data. After Joined, the status LED will lit steady and the Control pin (IO14) will goes high. If you are using the suggest connection, the target LED will lit.
 
 If this doesn't happen after 6 minutes, please check the status of your NEO miner and make sure it is running.
 
-![x2e_provisioned](assets/x2e_provisioned.png)
+![x2e_provisioned](./img/x2e/assets/x2e_provisioned.png)
 
 After that, your X2E board is connected and able to accept data from the Moonchain.
 
