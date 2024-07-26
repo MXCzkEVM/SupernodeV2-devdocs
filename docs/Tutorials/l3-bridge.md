@@ -1,6 +1,6 @@
 ---
 title: Use L3 Bridge
-sidebar_position: 11
+sidebar_position: 12
 ---
 Utilizing L3 Bridge on Ethereum Mainnet: A Comprehensive Guide
 
