@@ -19,6 +19,9 @@ This guide will walk you through the process of operating a Moonchain supernode 
 - [Docker](https://docs.docker.com/engine/install/) is installed and **running**.
 - [Git](https://github.com/git-guides/install-git/) is installed.
 - Consult the [Geth minimum hardware requirements](https://github.com/ethereum/go-ethereum#hardware-requirements), with the exception of 1TB of free space (you won't need much, even ~50GB should suffice).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6QI9YxFskYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Steps
 
 ### Clone simple-mxc-node
