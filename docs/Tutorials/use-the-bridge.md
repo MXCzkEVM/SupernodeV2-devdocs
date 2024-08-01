@@ -1,6 +1,6 @@
 ---
 title: Use the Bridge
-sidebar_position: 3
+sidebar_position: 5
 ---
 
 This guide will help you use the bridge to send tokens between Arbitrum Goerli and MXC (Wannsee testnet). You can read more about how bridging works [here](/docs/Designs/Bridge). 
