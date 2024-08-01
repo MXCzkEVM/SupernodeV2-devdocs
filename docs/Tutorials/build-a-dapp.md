@@ -1,6 +1,6 @@
 ---
 title: Build a Dapp
-sidebar_position: 8
+sidebar_position: 10
 ---
 
 This guide will help you build the MangaDrop dapp on MXC (Geneva testnet)! The airdrop dapp highlights an important feature of MXC: deploying ERC20 tokens and conducting airdrops seamlessly. You can deploy tokens, manage them, and execute airdrops all through our user-friendly interface. Read more about the functionalities and architecture in our detailed documentation [here](https://github.com/MXCzkEVM/token-airdrop-x2e/tree/geneva).

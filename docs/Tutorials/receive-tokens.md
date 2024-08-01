@@ -1,6 +1,6 @@
 ---
 title: Receive Tokens
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 This guide will help you receive testnet tokens for Geneva testnet and Arbitrum Sepolia from the faucet(s).

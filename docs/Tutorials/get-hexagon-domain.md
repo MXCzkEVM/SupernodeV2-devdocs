@@ -1,6 +1,6 @@
 ---
 title: Get Hexagon Domain
-sidebar_position: 9
+sidebar_position: 11
 ---
 
 This guide will help you get an Moonchain domain name and show you how to name a hexagon with the your domain name.

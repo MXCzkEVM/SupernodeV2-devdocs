@@ -1,6 +1,6 @@
 ---
 title: Controlling a Physical Device via Moonchain
-sidebar_position: 11
+sidebar_position: 13
 ---
 
 This demonstration showcases the ability to control a physical device using Moonchain. It highlights how a blockchain transaction on Moonchain can remotely turn an LED on or off. Through this process, you will see the seamless integration of blockchain technology with real-world hardware, emphasizing the potential for secure, decentralized control in various applications.
