@@ -1,6 +1,6 @@
 ---
 title: Deploy a Contract
-sidebar_position: 7
+sidebar_position: 8
 ---
 :::caution
 Make sure you are using a test / throwaway wallet, to be safe. Don't ever reveal the private key of your main wallet!

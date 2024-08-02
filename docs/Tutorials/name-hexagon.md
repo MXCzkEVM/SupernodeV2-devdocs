@@ -1,6 +1,6 @@
 ---
 title: Name a Hexagon
-sidebar_position: 10
+sidebar_position: 12
 ---
 
 This guide will help you name a Hexagon using any of your Hexagon Domain Name

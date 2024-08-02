@@ -1,6 +1,7 @@
 ---
-sidebar_position: 8
+sidebar_position: 9
 ---
+
 # Gas Fee for Layer3
 
 There are two parties a user pays when submitting a tx:
@@ -16,7 +17,7 @@ The L3 component consists of the traditional fees Geth would pay to stakers in a
 
 Every zkEVM transaction has two costs: An L3 (execution) fee and an L2 (security) fee. At a high level, the L3 fee is the cost to execute your transaction in L3 and the L2 fee is the estimated cost to publish your transaction on L2 (in a rollup batch). Typically the L2 security fee is much higher than the L3 execution fee, so if you can wait it makes sense to postpone transactions until gas prices are lower (for example, over the weekend).
 
-L3 execution fee is charged as tx.gasPrice * l3GasUsed (up to tx.gasLimit). You can check the current L3 gas price in explorer. The transaction gas price is composed of two components: a base fee and a priority fee, because we are EIP 1559 compliant (although with different parameter values).
+L3 execution fee is charged as tx.gasPrice \* l3GasUsed (up to tx.gasLimit). You can check the current L3 gas price in explorer. The transaction gas price is composed of two components: a base fee and a priority fee, because we are EIP 1559 compliant (although with different parameter values).
 
 L2 security fee that pays for the cost of publishing the transaction on L2 (the cost of Ethereum equivalent security). It is deducted automatically from the supernode's ETH balance on Arbitrum One. It is based on three factors that are multiplied together:
 

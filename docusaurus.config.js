@@ -110,11 +110,11 @@ const config = {
             items: [
               {
                 label: "Telegram",
-                href: "https://t.co/uUAQUXsDVB",
+                href: "https://t.me/Moonchain_com",
               },
               {
                 label: "Twitter",
-                href: "https://t.me/Moonchain_com",
+                href: "https://x.com/moonchain_com?s=21",
               },
             ],
           },

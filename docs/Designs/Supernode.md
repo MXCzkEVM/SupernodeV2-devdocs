@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 # MXC Supernode (V2)
@@ -7,9 +7,9 @@ sidebar_position: 5
 Previous documents published about MXC [SupernodeV1](https://www.mxc.org/supernode)
 
 In the zkEVM SupernodeV2,there are two parts to a MXC Supernode, which are connected over the engine API:
+
 - `mxc-geth`
 - `mxc-client`
-
 
 ## MXC geth
 
