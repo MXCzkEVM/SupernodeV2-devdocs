@@ -1,8 +1,9 @@
 ---
-sidebar_position: 9
+sidebar_position: 10
 ---
 
 # Data Availability
+
 > With the MXC zkEVM DA module leveraging IPNS for data storage, only state roots and a necessary subset of transaction data are sent to Arbitrum (L2), while the bulk of the transaction batch data is posted to IPNS. For decentralized applications (dApps) with high gas consumption, they can operate at the same cost as a standard transaction (like a transfer) on MXC zkEVM, and the Arbitrum fee will not escalate with the complexity of L3 transaction execution. As a result, for transactions of high complexity, this approach can save up to approximately 70% of the cost compared to traditional L2 rollup fees on Arbitrum.
 
 :::tip Ontario Upgrade
