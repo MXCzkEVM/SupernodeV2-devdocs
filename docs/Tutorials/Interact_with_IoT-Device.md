@@ -5,6 +5,14 @@ sidebar_position: 13
 
 This demonstration showcases the ability to control a physical device using Moonchain. It highlights how a blockchain transaction on Moonchain can remotely turn an LED on or off. Through this process, you will see the seamless integration of blockchain technology with real-world hardware, emphasizing the potential for secure, decentralized control in various applications.
 
+English version:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/30CATOQeYKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+German version:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1uU0s5Zzf3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Moonchain Info
 
 Contract proposals: [https://github.com/MXCzkEVM/MEPs](https://github.com/MXCzkEVM/MEPs)
@@ -21,7 +29,6 @@ Private key:
 
     318dee0c207c20f4767e342a52e876b816379334a53277773c783b0e9348d368
 
-
 ## Change the X2E firmware
 
 If your X2E board is running another firmware, please follow the procedures below to change the firmware for this demonstration.
@@ -29,10 +36,12 @@ If your X2E board is running another firmware, please follow the procedures belo
 Firmware Repository: [https://github.com/MXCzkEVM/Moonchain-Control-X2E](https://github.com/MXCzkEVM/Moonchain-Control-X2E)
 
 1. Download the mobile APP tool (Nordic DFU) for firmware update.
+
    - [Google Play Store](https://play.google.com/store/apps/details?id=no.nordicsemi.android.dfu&hl=en&gl=US)
    - [Apple App Store](https://apps.apple.com/tt/app/nrf-device-firmware-update/id1624454660) (require iOS 16)
 
 2. Copy the firmware binary file `demo_controls_dfu_ism2400.zip` to your mobile phone.
+
    - (Important: Place the file in the download folder, otherwise it may not be recognized correctly)
 
 3. Start the DFU App and select the firmware binary file.
@@ -65,7 +74,6 @@ Find a temporary email service provider to get the email address for receiving t
 
 Check the device profile (from MEP803) that we will be using. It needs to match the firmware of the X2E board. We will be using an existing ISM2400 profile, with the index set to 3.
 
-
 ```
 cast call 0xBFc77Ee5959699eC4171891b625D6EccdC9e00cD "deviceProfileList(uint256) (uint256,string,address,string,bool,uint256)" 3 --rpc-url https://geneva-rpc.moonchain.com --private-key 318dee0c207c20f4767e342a52e876b816379334a53277773c783b0e9348d368
 ```
@@ -81,8 +89,6 @@ true
 100000000000000000
 ```
 
-
-
 Check the unit price of a PID from MEP802.
 
 ```
@@ -90,8 +96,6 @@ cast call 0x28479D68cD3ef5661BDB7505EFD1712D5D0951F6 "pidUnitPrice() (uint256)" 
 ```
 
 The response will be `123450000000000000000` wei, means 123.45 MXC.
-
-
 
 Please replace the email address with your own and send the following command to purchase one PID via MEP802.
 
@@ -107,10 +111,6 @@ Please read the PID `K2ILSDXUOO3O4EEIWZDDW6SL` from the attached file and use it
 
 ![pid_csv](./img/x2e/assets/pid_csv.png)
 
-
-
-
-
 ## Setup the X2E board.
 
 Connect the X2E board to your computer using a USB Type-C cable. Next, launch a serial terminal program like `minicom` on Linux or `PuTTY` on Windows, and establish a connection with the X2E board. Use the serial settings `115200 8N1`.
@@ -123,7 +123,7 @@ Then send a "AT" command to test the connection. If the connection is correct, t
 
 ![AT_OK](./img/x2e/assets/at_ok.png)
 
-Send the following command at the serial terminal program to change the PID of the X2E board. *Replace the PID to the one got from previous steps.* You will get a OK if success.
+Send the following command at the serial terminal program to change the PID of the X2E board. _Replace the PID to the one got from previous steps._ You will get a OK if success.
 
 ```
 AT+CQRCODE={"PID":"K2ILSDXUOO3O4EEIWZDDW6SL","B":"MatchX","M":"X2E","V":"1.3"}
@@ -145,8 +145,6 @@ If this doesn't happen after 6 minutes, please check the status of your NEO mine
 
 After that, your X2E board is connected and able to accept data from the Moonchain.
 
-
-
 ## Mint the sensor NFT for the X2E board
 
 Check the price for minting a sensor NFT.
@@ -163,8 +161,6 @@ The response will similar as below. The first line is the price. 987650000000000
 true
 ```
 
-
-
 Mint the NFT by replacing `0xf6d4bd...` with the pidZkevmHash you received earlier.
 
 ```
@@ -173,17 +169,11 @@ cast send 0x28479D68cD3ef5661BDB7505EFD1712D5D0951F6 "mintSensorNFT(uint256,uint
 
 After Sensor NFT minted, you are ready to send data to the X2E board via Moonchain.
 
-
-
 To repeat the minting process, you must first burn the Sensor NFT.
 
 ```
 cast send 0x28479D68cD3ef5661BDB7505EFD1712D5D0951F6 "burnSensorNFT(uint256)" 0xf6d4bda9e25797a1423a41c485bfaa8e03930f0dbdf2d2b324d79fa71d8c9108 --rpc-url https://geneva-rpc.moonchain.com --private-key 318dee0c207c20f4767e342a52e876b816379334a53277773c783b0e9348d368
 ```
-
-
-
-
 
 ## Controlling via Moonchain
 
@@ -192,8 +182,6 @@ The controlled pin output has three modes: the first mode sets the output to alw
 Please replace `0xf6d4bd...` with the pidZkevmHash you received earlier in the example commands below.
 
 The controlled pin should be changed within 2 minutes after the transaction is completed.
-
-
 
 Set controlled to low (Turn off LED):
 
@@ -212,10 +200,3 @@ Set controlled to cycling (Blinking the LED):
 ```
 cast send 0x28479D68cD3ef5661BDB7505EFD1712D5D0951F6 "enqueueDownlink(uint256,string,uint8,uint8)" 0xf6d4bda9e25797a1423a41c485bfaa8e03930f0dbdf2d2b324d79fa71d8c9108 "QhMC" 1 0 --rpc-url https://geneva-rpc.moonchain.com --private-key 318dee0c207c20f4767e342a52e876b816379334a53277773c783b0e9348d368
 ```
-
-
-
-
-
-
-

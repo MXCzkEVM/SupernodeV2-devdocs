@@ -1,17 +1,14 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 # MXC Stable Coin (V1)
 
-MXC will be the largest Layer-3 IoT solution on Arbitrum ecosystem, bringing tremendous real-world items to NFT world and data to the blockchain. Undoubtedly each real-world item and each piece of data has its own value, and this kind of value is not from pure financial speculations, the value comes from real economy that serves our food, sports, transportation every day. 
+MXC will be the largest Layer-3 IoT solution on Arbitrum ecosystem, bringing tremendous real-world items to NFT world and data to the blockchain. Undoubtedly each real-world item and each piece of data has its own value, and this kind of value is not from pure financial speculations, the value comes from real economy that serves our food, sports, transportation every day.
 
 MXC is going to leverage the real-world economy to build the first stable coin backed by items like Gin, Bike sensors, Nike shoes etc. Along with the tokens created on zkEVM like Ride token, Park token and MXC, BTC, the MXC stable coin has a basket ranging from NFT to tokens to back the stable coin from the real-world economy.
 
-
 XSD, in conjunction with MXC and ISO projects, aims to empower individuals and companies to generate and circulate XSD within their unique economic systems, supporting their specific business requirements. The objective is to transform the existing financial landscape, where the majority of stable coins and fiat currencies rely on the backing of US treasury bonds. With a staggering 30 trillion USD in US treasury bonds and only 4 trillion in gold and other reserves held by the US Treasury and Federal Reserve, this initiative seeks to establish a more decentralized and diverse foundation for global financial systems.
-
-
 
 As IoT [Swap](https://swap.mxc.com/) shows, the IoT tokens like Ride token would be the major applications that use MXC network and ISO projects to build their own data economy. These Ride and Park token can be swapped in MXC Swap conveniently, through XSD trading pair. XSD will be the first IoT stable coin that are backed by real-world assets and data values, meanwhile serving for the digital and real-world economy.
 
@@ -19,17 +16,16 @@ MXProtocol design and its ecosystem both are aimed for validating the XSD stable
 
 IoT NFTs need to reach a minimal IoT NFT transactions, in the initial roll-out is three transactions in order to become a collateral. This is to raise the attacking cost to enter the XSD mint basket.
 
-
 NFTs and tokens are used as collateral to back the XSD, the XSD/USD conversion rate is to make sure the XSD can trade with USD from 1 XSD = 2 USD for the future market fluctuation. Normally the NFTs are issued by companies and manufacturers to let communities to burn XSD and get a collateral NFT, in the whole reserve of the MXC there are 20 percent of cryptocurrencies as collateral, the rest of 80% should be IoT NFTs that are backed by real-world assets.
 
 The ratio of the 20/80 percent should be adjusted by MXC Reserve, namely MXC DAO in referendum : https://snapshot.org/#/mxcpop.eth
 
-The starting point 20/80 is to reduce the fluctuation of Sensor Token part and let the basket to fill with 80% real-world collectables that is not volatile at all. A referendum in MXC DAO can trigger the change of the ratio. 
+The starting point 20/80 is to reduce the fluctuation of Sensor Token part and let the basket to fill with 80% real-world collectables that is not volatile at all. A referendum in MXC DAO can trigger the change of the ratio.
 
 In the following example, it shows how XSD is backed:
 
 | Collateral   | Value USD | Quantity | Total USD | Percentage |
-|--------------|-----------|----------|-----------|------------|
+| ------------ | --------- | -------- | --------- | ---------- |
 | Diamond NFT  | 2700      | 10       | 27000     | 72%        |
 | Gin 1689 NFT | 100       | 30       | 3000      | 8%         |
 | MXC token    | 1         | 2000     | 2000      | 5.3%       |
@@ -47,15 +43,13 @@ Every time the XSD is mint will need to follow the most updated conversion rate 
 In this case, the users will try to redeem one Gin 1689 NFT to get 100USD worth of NFT, and also to get 25USD of any token, like 25USD MXC token. So the user needs to burn 250 XSD, in return he gets 1 Gin 1689 NFT and 25USD MXC. This case is assuming the interest rate is 0% from XSD mint to the borrower.
 
 | Collateral redeemed | Value USD | Quantity | Total Burnt XSD | Percentage |
-|---------------------|-----------|----------|-----------|------------|
-| Gin 1689 NFT        | 100       | 1        | 50       | 80%        |
-| MXC token           | 1         | 25       | 12.5     | 20%        |
-|                     |           |          | 62.5       | 100%       |
-
-
-
+| ------------------- | --------- | -------- | --------------- | ---------- |
+| Gin 1689 NFT        | 100       | 1        | 50              | 80%        |
+| MXC token           | 1         | 25       | 12.5            | 20%        |
+|                     |           |          | 62.5            | 100%       |
 
 ## Insurance
+
 The goal of XSD and MXC is to enable every person/company to create XSD and circulate in their own economy to support their business logic, eventually it is to change the current situation that all the stable coins and Fiat currencies are backed by US treasury bonds, while US treasury bonds are like 30 trillion USD and US treasury and Fed Reserve only got 4 trillion gold or other reserves.
 
 We need to peg this world better with the assets created by people and used by people. Also we need to deal with systematic risks if the de-peg happens. Central banks proposes to print more money to solve the problem. MXC DAO proposes that we should add a 10% insurance on the top of the every XSD mint to deal with the systematic risks.
@@ -66,7 +60,7 @@ The insurance should be an option at the end of the minting process.
 
 ## XSD exchange rate with USD
 
-When the XSD economy is getting bigger and bigger, the MXC DAO should see the 1:2 exchange rate will fluctuate due to the demand of XSD is higher than USD and people lose trust in USD. 
+When the XSD economy is getting bigger and bigger, the MXC DAO should see the 1:2 exchange rate will fluctuate due to the demand of XSD is higher than USD and people lose trust in USD.
 
 This is due to the volatility of the Fed Reserve to create more balance sheet and run-off the balance sheet without any anchor, XSD holder should aim for a certain development that the unit price of the collateral like watch, shoes, wines are defined by the unit of a XSD and no longer will be a USD.
 
@@ -77,6 +71,7 @@ Every time the XSD is mint will need to follow the most updated conversion rate 
 :::
 
 ## Lending use cases
+
 It is expected that people will borrow XSD and lend XSD to generate stable APY, there are a lot of similar lending protocols like AAVE will move to MXC zkEVM to enable XSD economy active.
 
 ## Use case of XSD
@@ -89,7 +84,7 @@ It is expected that people will borrow XSD and lend XSD to generate stable APY, 
 
 ## XSD mint Implementation
 
-This chapter introduces XSD minting: a peer-to-peer perpetual lending protocol that supports Sensor token and  IoT NFTs. XSD has no oracle dependencies and no expiries, allowing borrowing positions to remain open indefinitely until liquidated, with market-determined interest rates.
+This chapter introduces XSD minting: a peer-to-peer perpetual lending protocol that supports Sensor token and IoT NFTs. XSD has no oracle dependencies and no expiries, allowing borrowing positions to remain open indefinitely until liquidated, with market-determined interest rates.
 
 XSD mint matches users who want to borrow against their real-world collateral with whatever lender is willing to offer the most competitive rate, using a sophisticated off-chain offer protocol.
 
@@ -147,24 +142,21 @@ So, instead of simply giving the collateral NFT and token to the XSD mint, the p
 
 At the expiration time, if the borrower has not repaid the debt, a refinancing auction begins at 0%, with a steadily rising rate. Once the auction hits an interest rate at which XSD mint is interested in lending, the XSD mint can accept it by submitting their offer on-chain. The XSD mint pays the full repayment amount to itselves, calculated as of the moment the auction completes, and takes over the loan until the new expiration time (which could be calculated as the current expiration time plus some protocol-specified loan period), using the interest rate at which the auction resolved.
 
-
 ## Liquidation
 
 It is possible that this Dutch auction may not be able to find a willing party to take, especially if the value of the collateral has dropped close to or below the value of the debt.
 
-Once the auction hits some defined max rate (like 1000%) without letting XSD mint to re-stepping in, the protocol infers that the position is insolvent or otherwise non-viable, and liquidates the borrower. The existing lender can then send a transaction to take possession of the collateral. 
+Once the auction hits some defined max rate (like 1000%) without letting XSD mint to re-stepping in, the protocol infers that the position is insolvent or otherwise non-viable, and liquidates the borrower. The existing lender can then send a transaction to take possession of the collateral.
 
 Also the insurance in this case should repay the difference amounts to the borrower if the liquidation is faield.
 
 Except for MXC DAO referendum can trigger a liquidation event, borrower usually won't repay if the interest rate is 0% or even in some cases can be below 0%.
-
 
 ## Optimistic Auctions
 
 In the majority of the cases, the XSD mint might be happy to continue the same loan at the same terms, and the borrower may too. We might even consider that the default scenario. In that case, it would be wasteful to run the auction.
 
 Instead, we could design our protocol to optimistically renew the loan. At each expiration time, borrowers and lenders, by default, extend the expiration time by some predetermined loan period, with the same terms. The above-described auction would only occur if the lender seeks to terminate the loan.
-
 
 ## Continuous Loans
 
@@ -180,11 +172,9 @@ A borrower can repay at any time. If a borrower wants to change the amount they 
 
 If a referendum in MXC DAO wants to get out of a certain XSD mint loan, they can trigger a refinancing auction, as discussed above. All timelines and deadlines during refinancing events can be defined relative to the time the refinancing was initiated.
 
-Alternatively, if the interest rate is adjusted by the XSD mint, the current  lend can skip the auction by submitting the other offer to the vault to get out of their loan.
-
+Alternatively, if the interest rate is adjusted by the XSD mint, the current lend can skip the auction by submitting the other offer to the vault to get out of their loan.
 
 ## Governance Considerations
-
 
 The protocol does not depend on governance for valuing collateral or setting acceptable loan-to-value ratios, thus reducing the need for extensive on-chain governance or centralized administrators. However, there may still be situations where adjustments to certain parameters could enhance the protocol's functionality. These parameters include:
 
