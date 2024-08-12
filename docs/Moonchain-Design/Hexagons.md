@@ -44,7 +44,7 @@ import Moonchain_Hexagon_Map from '/img/Moonchain_Hexagon_Map.png';
 ES6 usage:
 
 ```js
-import {latLngToCell} from "h3-js";
+import { latLngToCell } from "h3-js";
 ```
 
 CommonJS usage:
