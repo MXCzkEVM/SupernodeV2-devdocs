@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 ---
+import Proving_Moonchain_Blocks from '/img/Proving_Moonchain_Blocks.gif';
 
 # Proving Moonchain Blocks
 
@@ -28,8 +29,6 @@ Blocks on Moonchain progress through three distinct states:
 - **Verified**: Verified blocks have undergone further verification processes, ensuring complete validation of state transitions.
 
 Below is a visualization depicting the three stages (Proposed --> Proved --> Verified).
-
-import Proving_Moonchain_Blocks from '/img/Proving_Moonchain_Blocks.gif';
 
 <img src={Proving_Moonchain_Blocks} alt="Proving Moonchain Blocks GIF" style={{width: 600}}/>
 
